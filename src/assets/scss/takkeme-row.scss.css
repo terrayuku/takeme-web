@@ -1,0 +1,17 @@
+.takeme-row {
+    padding-left: 20em;
+}
+
+@media (max-width: 768px) {
+
+    .takeme-row {
+        padding-left: 13rem;
+    }
+}
+
+@media (max-width: 425px) {
+
+    .takeme-row {
+        padding-left: 0;
+    }
+}

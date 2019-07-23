@@ -1,0 +1,43 @@
+<div class="main-content">
+    <div class="container">
+        <div class="row takeme-row">
+            <div class="col-md-6">
+                <div class="card-plain">
+                    <div class="card-body">
+                        <div class="alert alert-danger" *ngIf="message">
+                            <button mat-button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                <i class="material-icons">close</i>
+                            </button>
+                            <span>
+                              {{ message }}
+                            </span>
+                        </div>
+                        <form (submit)="onSubmit(from.value, destination.value)" [formGroup]="findSign">
+                            <div class="row" style="display: block">
+                                <div class="col-md-12">
+                                    <mat-form-field class="example-full-width">
+                                        <input #from matInput placeholder="From" formControlName="from" required minlength="3" maxlength="50">
+                                        <mat-error *ngIf="findSign.invalid">Please enter from value</mat-error>
+                                    </mat-form-field>
+                                </div>
+                                <div class="col-md-12">
+                                    <mat-form-field class="example-full-width">
+                                        <input #destination matInput placeholder="To" type="text" required formControlName="to" minlength="3" maxlength="50">
+                                        <mat-error *ngIf="findSign.invalid">Please enter destination value</mat-error>
+                                    </mat-form-field>
+                                </div>
+                                <button mat-raised-button type="submit" class="btn btn-success pull-right"
+                                [disabled]="findSign.invalid">
+                                    <!--<i class="material-icons">-->
+                                        <!--directions-->
+                                    <!--</i> -->
+                                    Find
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
