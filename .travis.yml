@@ -34,7 +34,6 @@ deploy:
     local-dir: ./dist
     on:
       branch: develop
-
   # production
   provider: firebase
   skip_cleanup: true
@@ -43,5 +42,5 @@ deploy:
   project: "takeme"
   message: "production deployment"
   on:
-    repo: terrayuku/takeme
+    repo: terrayuku/takeme-web
     branch: master
