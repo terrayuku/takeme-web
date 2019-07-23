@@ -26,8 +26,22 @@ script:
 #  - npm run e2e -- --protractor-config=e2e/protractor-ci.conf.js
 
 deploy:
+  # beta testing
+  provider: pages
+    skip-cleanup: true
+    github-token: $GITHUB_TOKEN
+    keep-history: true
+    local-dir: ./dist
+    on:
+      branch: develop
+
+  # production
   provider: firebase
+  skip_cleanup: true
   token:
     secure: "$FIREBASE_TOKEN"
   project: "takeme"
-  message: "deployment"
+  message: "production deployment"
+  on:
+    repo: terrayuku/takeme
+    branch: master
