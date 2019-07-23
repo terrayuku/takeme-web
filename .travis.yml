@@ -28,12 +28,12 @@ script:
 deploy:
   # beta testing
   provider: pages
-    skip-cleanup: true
-    github-token: $GITHUB_TOKEN
-    keep-history: true
-    local-dir: ./dist
-    on:
-      branch: develop
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  keep-history: true
+  local-dir: ./dist
+  on:
+    branch: develop
   # production
   provider: firebase
   skip_cleanup: true
