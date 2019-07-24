@@ -39,6 +39,6 @@ deploy:
     email: simtyuku@gmail.com
     token:
       secure: 1/n7LA0yRiB14Wdq1ZQ7YkYj-9sarBQAGUbI04E6a_fgg
-    project: takeme
+    project: takeme-2019
     on:
       branch: master
