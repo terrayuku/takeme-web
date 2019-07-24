@@ -37,7 +37,7 @@ deploy:
   - provider: firebase
     skip_cleanup: true
     token:
-      secure: $FIREBASE_TOKEN
+      secure: "1/n7LA0yRiB14Wdq1ZQ7YkYj-9sarBQAGUbI04E6a_fgg"
     project: "takeme"
     message: "production deployment"
     on:
