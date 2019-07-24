@@ -18,6 +18,8 @@ cache:
 
 install:
   - npm install
+  - npm install -g tslint
+  - npm install -g typescript@next
 
 script:
   - npm run test -- --no-watch --no-progress
