@@ -1,8 +1,8 @@
 {
   "name": "functions",
   "scripts": {
-    "lint": "npm install && tslint --project tsconfig.json",
-    "build": "npm install && tsc",
+    "lint": "tslint --project tsconfig.json",
+    "build": "tsc",
     "serve": "npm run build && firebase serve --only functions",
     "shell": "npm run build && firebase functions:shell",
     "start": "npm run shell",
