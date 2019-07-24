@@ -1,0 +1,38 @@
+<div class="main-content">
+    <div class="container">
+        <div class="row takeme-row">
+            <div class="col-md-6">
+                <div class="alert alert-success" *ngIf="downloadUrl">
+                    <button mat-button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <i class="material-icons">close</i>
+                    </button>
+                    <span>
+                              From {{ from }} To {{ destination }}
+                    </span>
+                </div>
+                <div class="alert alert-danger" *ngIf="!downloadUrl">
+                    <button mat-button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <i class="material-icons">close</i>
+                    </button>
+                    <span>
+                              <b> Danger - </b> This is a regular notification made with ".alert-danger"</span>
+                </div>
+                <div class="card card-profile">
+                    <div class="card-avatar">
+                        <a href="javascript:void(0)">
+                            <img class="img" src="{{ downloadUrl }}" />
+                        </a>
+                    </div>
+                </div>
+                <div class="card-profile">
+                    <button mat-raised-button type="submit" class="btn btn-success pull-center" (click)="gotIt()">
+                        <!--<i class="material-icons">-->
+                            <!--thumb_up-->
+                        <!--</i> -->
+                        Got it
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
