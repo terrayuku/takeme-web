@@ -24,7 +24,6 @@ install:
 script:
   - npm run test -- --no-watch --no-progress
   - npm run build
-  - npm run build --prod
 
 deploy:
   # beta testing
@@ -32,13 +31,12 @@ deploy:
     skip-cleanup: true
     github-token: $GITHUB_TOKEN
     keep-history: true
-    local-dir: dist
+    local-dir: ./dist/takemeto
     on:
       branch: develop
     # production
   - provider: firebase
     skip_cleanup: true
-    email: simtyuku@gmail.com
     token:
       secure: $FIREBASE_TOKEN
     project: takeme-2019
