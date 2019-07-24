@@ -18,7 +18,6 @@ cache:
 
 install:
   - npm install
-  - npm install tslint:latest
 
 script:
   - npm run test -- --no-watch --no-progress
