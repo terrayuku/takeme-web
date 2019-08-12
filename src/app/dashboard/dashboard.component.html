@@ -1,0 +1,36 @@
+<div class="main-content">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="card  card-plain">
+                    <div class="card-header card-header-success">
+                        <h4 class="card-title">{{ listOfSigns.length }} Routes Covered</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4" *ngFor="let sign of listOfSigns; let i = index">
+                <div class="card card-chart">
+                    <div class="card-body">
+                        <h4 class="card-title">{{ sign.from.name }} => {{ sign.destination.name }}</h4>
+                        <div class="card card-profile">
+                            <div class="card-avatar">
+                                <a href="javascript:void(0)">
+                                    <img class="img" src="{{ sign.downloadUrl }}" alt="SIGN"/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--<div class="card-footer">-->
+                        <!--<div class="stats">-->
+                            <!--<button mat-raised-button type="submit" class="btn btn-danger pull-right" (click)="deleteSign(i)">-->
+                                <!--Delete Sing</button>-->
+                            <!--<div class="clearfix"></div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

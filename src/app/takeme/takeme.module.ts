@@ -16,6 +16,7 @@ import {
 import {TakemeComponent} from "./takeme.component";
 import { DisplaysignComponent } from '../displaysign/displaysign.component';
 import {AddsignfordirectionsComponent} from "../addsignfordirections/addsignfordirections.component";
+import {SearchaddressComponent} from "../searchaddress/searchaddress.component";
 
 @NgModule({
     imports: [
@@ -33,7 +34,8 @@ import {AddsignfordirectionsComponent} from "../addsignfordirections/addsignford
   declarations: [
       TakemeComponent,
       DisplaysignComponent,
-      AddsignfordirectionsComponent
+      AddsignfordirectionsComponent,
+      SearchaddressComponent
   ],
     schemas: [ NO_ERRORS_SCHEMA, CUSTOM_ELEMENTS_SCHEMA ]
 })

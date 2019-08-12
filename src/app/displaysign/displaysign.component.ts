@@ -11,9 +11,6 @@ export class DisplaysignComponent implements OnInit {
   destination: string;
   downloadUrl: string;
   constructor(private router: Router) {
-      console.log(this.router);
-      console.log(this.router.url);
-      console.log(this.router.getCurrentNavigation());
       if(this.router.getCurrentNavigation().extras.queryParams !== undefined) {
           this.from = JSON.parse(this.router.getCurrentNavigation().extras.queryParams['from']);
           this.destination = JSON.parse(this.router.getCurrentNavigation().extras.queryParams['destination']);
