@@ -13,8 +13,8 @@ import { AppComponent } from './app.component';
 import {TakemeModule} from "./takeme/takeme.module";
 import {environment} from "../environments/environment";
 import {CUSTOM_ELEMENTS_SCHEMA} from "@angular/core";
-import { SearchaddressComponent } from './searchaddress/searchaddress.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { SearchComponent } from './search/search.component';
 
 @NgModule({
   imports: [
@@ -31,7 +31,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
   ],
   declarations: [
     AppComponent,
-    DashboardComponent
+    DashboardComponent,
+    SearchComponent,
 
   ],
   providers: [],
