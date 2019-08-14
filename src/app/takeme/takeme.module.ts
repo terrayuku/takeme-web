@@ -35,7 +35,7 @@ import {SearchaddressComponent} from "../searchaddress/searchaddress.component";
       TakemeComponent,
       DisplaysignComponent,
       AddsignfordirectionsComponent,
-      SearchaddressComponent
+      SearchaddressComponent,
   ],
     schemas: [ NO_ERRORS_SCHEMA, CUSTOM_ELEMENTS_SCHEMA ]
 })

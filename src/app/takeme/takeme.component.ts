@@ -16,6 +16,7 @@ export class TakemeComponent implements OnInit {
     ngOnInit() {
     }
     getAddress(place: object) {
+        console.log(place);
         this.address = place['formatted_address'];
         this.formattedAddress = place['formatted_address'];
     }
