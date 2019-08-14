@@ -40,7 +40,7 @@ module.exports = "<footer class=\"footer \">\n    <div class=\"container-fluid\"
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<nav class=\"navbar navbar-expand-lg navbar-transparent  navbar-absolute fixed-top\">\n    <div class=\"container-fluid\">\n        <div class=\"navbar-wrapper\">\n          <a class=\"navbar-brand\" href=\"javascript:void(0)\">{{getTitle()}}</a>\n        </div>\n        <!--<button mat-raised-button class=\"navbar-toggler\" type=\"button\" (click)=\"sidebarToggle()\">-->\n            <!--<span class=\"sr-only\">Toggle navigation</span>-->\n            <!--<span class=\"navbar-toggler-icon icon-bar\"></span>-->\n            <!--<span class=\"navbar-toggler-icon icon-bar\"></span>-->\n            <!--<span class=\"navbar-toggler-icon icon-bar\"></span>-->\n        <!--</button>-->\n        <div class=\"justify-content-end\" id=\"navigation\">\n            <ul class=\"navbar-nav\">\n                <li class=\"nav-item\">\n                    <a mat-button class=\"nav-link\" href=\"#settings\" data-toggle=\"tab\">\n                        About\n                        <div class=\"ripple-container\"></div>\n                    </a>\n                </li>\n                <li class=\"nav-item\">\n                    <a mat-button class=\"nav-link\" routerLink=\"/dashboard\" data-toggle=\"tab\">\n                        Dashboard\n                        <div class=\"ripple-container\"></div>\n                    </a>\n                </li>\n            </ul>\n        </div>\n    </div>\n</nav>"
+module.exports = "<nav class=\"navbar navbar-expand-lg navbar-transparent  navbar-absolute fixed-top\">\n    <div class=\"container-fluid\">\n        <div class=\"navbar-wrapper\">\n          <a class=\"navbar-brand\" href=\"javascript:void(0)\">{{getTitle()}}</a>\n        </div>\n        <!--<button mat-raised-button class=\"navbar-toggler\" type=\"button\" (click)=\"sidebarToggle()\">-->\n            <!--<span class=\"sr-only\">Toggle navigation</span>-->\n            <!--<span class=\"navbar-toggler-icon icon-bar\"></span>-->\n            <!--<span class=\"navbar-toggler-icon icon-bar\"></span>-->\n            <!--<span class=\"navbar-toggler-icon icon-bar\"></span>-->\n        <!--</button>-->\n        <div class=\"justify-content-end\" id=\"navigation\">\n            <ul class=\"navbar-nav\" style=\"flex-direction: unset\">\n                <li class=\"nav-item\">\n                    <a mat-button class=\"nav-link\" href=\"#settings\" data-toggle=\"tab\">\n                        About\n                    </a>\n                </li>\n                <li class=\"nav-item\">\n                    <a mat-button class=\"nav-link\" routerLink=\"/dashboard\" data-toggle=\"tab\">\n                        Dashboard\n                    </a>\n                </li>\n            </ul>\n        </div>\n    </div>\n</nav>"
 
 /***/ }),
 
@@ -62,7 +62,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"main-content\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-md-8\">\n                <div class=\"card  card-plain\">\n                    <div class=\"card-header card-header-success\">\n                        <h4 class=\"card-title\">{{ listOfSigns.length }} Routes Covered</h4>\n                    </div>\n                </div>\n            </div>\n        </div>\n        <div class=\"row\">\n            <div class=\"col-md-4\" *ngFor=\"let sign of listOfSigns; let i = index\">\n                <div class=\"card card-chart\">\n                    <div class=\"card-body\">\n                        <h4 class=\"card-title\">{{ sign.from.name }} => {{ sign.destination.name }}</h4>\n                        <div class=\"card card-profile\">\n                            <div class=\"card-avatar\">\n                                <a href=\"javascript:void(0)\">\n                                    <img class=\"img\" src=\"{{ sign.downloadUrl }}\" alt=\"SIGN\"/>\n                                </a>\n                            </div>\n                        </div>\n                    </div>\n                    <!--<div class=\"card-footer\">-->\n                        <!--<div class=\"stats\">-->\n                            <!--<button mat-raised-button type=\"submit\" class=\"btn btn-danger pull-right\" (click)=\"deleteSign(i)\">-->\n                                <!--Delete Sing</button>-->\n                            <!--<div class=\"clearfix\"></div>-->\n                        <!--</div>-->\n                    <!--</div>-->\n                </div>\n            </div>\n        </div>\n    </div>\n</div>"
+module.exports = "<div class=\"main-content\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-md-6\">\n                <div class=\"card  card-plain\">\n                    <div class=\"card-header card-header-success\">\n                        <h4 class=\"card-title\">{{ searchAddresses.length <= 0 ? listOfSigns.length : searchAddresses.length }} Route(s) Covered</h4>\n                        <Search (setAddress)=\"getAddress($event)\" adressType=\"geocode\"></Search>\n                    </div>\n                </div>\n            </div>\n        </div>\n        <div class=\"row\" *ngIf=\"searchAddresses.length <= 0\">\n            <div class=\"col-md-4\" *ngFor=\"let sign of listOfSigns; let i = index\">\n                <div class=\"card card-chart\">\n                    <div class=\"card-body\">\n                        <h4 class=\"card-title\">{{ sign.from.name }} => {{ sign.destination.name }}</h4>\n                        <div class=\"card card-profile\">\n                            <div class=\"card-avatar\">\n                                <a href=\"javascript:void(0)\">\n                                    <img class=\"img\" src=\"{{ sign.downloadUrl }}\" alt=\"SIGN\"/>\n                                </a>\n                            </div>\n                        </div>\n                    </div>\n                    <!--<div class=\"card-footer\">-->\n                        <!--<div class=\"stats\">-->\n                            <!--<button mat-raised-button type=\"submit\" class=\"btn btn-danger pull-right\" (click)=\"deleteSign(i)\">-->\n                                <!--Delete Sing</button>-->\n                            <!--<div class=\"clearfix\"></div>-->\n                        <!--</div>-->\n                    <!--</div>-->\n                </div>\n            </div>\n        </div>\n        <div class=\"row\" *ngIf=\"searchAddresses.length > 0\">\n            <div class=\"col-md-4\" *ngFor=\"let sign of searchAddresses; let i = index\">\n                <div class=\"card card-chart\">\n                    <div class=\"card-body\">\n                        <h4 class=\"card-title\">{{ sign.from.name }} => {{ sign.destination.name }}</h4>\n                        <div class=\"card card-profile\">\n                            <div class=\"card-avatar\">\n                                <a href=\"javascript:void(0)\">\n                                    <img class=\"img\" src=\"{{ sign.downloadUrl }}\" alt=\"SIGN\"/>\n                                </a>\n                            </div>\n                        </div>\n                    </div>\n                    <!--<div class=\"card-footer\">-->\n                        <!--<div class=\"stats\">-->\n                            <!--<button mat-raised-button type=\"submit\" class=\"btn btn-danger pull-right\" (click)=\"deleteSign(i)\">-->\n                                <!--Delete Sing</button>-->\n                            <!--<div class=\"clearfix\"></div>-->\n                        <!--</div>-->\n                    <!--</div>-->\n                </div>\n            </div>\n        </div>\n    </div>\n</div>"
 
 /***/ }),
 
@@ -74,6 +74,17 @@ module.exports = "<div class=\"main-content\">\n    <div class=\"container\">\n 
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"main-content\">\n    <div class=\"container\">\n        <div class=\"row takeme-row\">\n            <div class=\"col-md-6\">\n                <div class=\"alert alert-success\" *ngIf=\"downloadUrl\">\n                    <button mat-button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-label=\"Close\">\n                        <i class=\"material-icons\">close</i>\n                    </button>\n                    <span>\n                              From {{ from }} To {{ destination }}\n                    </span>\n                </div>\n                <div class=\"alert alert-danger\" *ngIf=\"!downloadUrl\">\n                    <button mat-button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-label=\"Close\">\n                        <i class=\"material-icons\">close</i>\n                    </button>\n                    <span>\n                              <b> Danger - </b> This is a regular notification made with \".alert-danger\"</span>\n                </div>\n                <div class=\"card card-profile\">\n                    <div class=\"card-avatar\">\n                        <a href=\"javascript:void(0)\">\n                            <img class=\"img\" src=\"{{ downloadUrl }}\" />\n                        </a>\n                    </div>\n                </div>\n                <div class=\"card-profile\">\n                    <button mat-raised-button type=\"submit\" class=\"btn btn-success pull-center\" (click)=\"gotIt()\">\n                        <!--<i class=\"material-icons\">-->\n                            <!--thumb_up-->\n                        <!--</i> -->\n                        Got it\n                    </button>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>"
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/index.js!./src/app/search/search.component.html":
+/*!************************************************************************!*\
+  !*** ./node_modules/raw-loader!./src/app/search/search.component.html ***!
+  \************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"alert alert-danger\" *ngIf=\"message\">\n  <button mat-button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-label=\"Close\">\n    <i class=\"material-icons\">close</i>\n  </button>\n  <span>\n        {{ message }}\n    </span>\n</div>\n<form [formGroup]=\"searchSign\">\n  <div class=\"input-group no-border form-control-color\">\n    <input type=\"text\" class=\"form-control\" style=\"color: white;\" #search placeholder=\"Search...\"\n           [(ngModel)]=\"searchedAddress\" formControlName=\"search\" >\n    <button mat-raised-button type=\"submit\" class=\"btn btn-white btn-round btn-just-icon\">\n      <i class=\"material-icons\">search</i>\n      <div class=\"ripple-container\"></div>\n    </button>\n  </div>\n</form>"
 
 /***/ }),
 
@@ -253,12 +264,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _takeme_takeme_module__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./takeme/takeme.module */ "./src/app/takeme/takeme.module.ts");
 /* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../environments/environment */ "./src/environments/environment.ts");
 /* harmony import */ var _dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./dashboard/dashboard.component */ "./src/app/dashboard/dashboard.component.ts");
+/* harmony import */ var _search_search_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./search/search.component */ "./src/app/search/search.component.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -292,7 +305,8 @@ var AppModule = /** @class */ (function () {
             ],
             declarations: [
                 _app_component__WEBPACK_IMPORTED_MODULE_9__["AppComponent"],
-                _dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_12__["DashboardComponent"]
+                _dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_12__["DashboardComponent"],
+                _search_search_component__WEBPACK_IMPORTED_MODULE_13__["SearchComponent"],
             ],
             providers: [],
             bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_9__["AppComponent"]],
@@ -771,9 +785,12 @@ var Sign = /** @class */ (function () {
 }());
 var DashboardComponent = /** @class */ (function () {
     function DashboardComponent(db) {
-        var _this = this;
         this.db = db;
         this.listOfSigns = [];
+        this.searchAddresses = [];
+    }
+    DashboardComponent.prototype.ngOnInit = function () {
+        var _this = this;
         this.db.list('/signs').valueChanges().subscribe(function (sign) {
             sign.forEach(function (s) {
                 Object.keys(s).map(function (key) { return s[key]; }).map(function (si) {
@@ -781,8 +798,24 @@ var DashboardComponent = /** @class */ (function () {
                 });
             });
         });
-    }
-    DashboardComponent.prototype.ngOnInit = function () {
+    };
+    DashboardComponent.prototype.getAddress = function (place) {
+        this.address = place['formatted_address'];
+        this.formattedAddress = place['formatted_address'];
+        this.getSearchedAddress(place);
+    };
+    DashboardComponent.prototype.getSearchedAddress = function (searchedAddress) {
+        this.searchAddresses = this.listOfSigns.filter(function (search) { return search.destination.name.includes(searchedAddress.toString()) ?
+            search.destination.name.includes(searchedAddress.toString()) :
+            search.from.name.includes(searchedAddress.toString()); });
+        // this.searchAddresses = this.listOfSigns.filter(search => {
+        //     if (search.destination.name.includes(searchedAddress.toString())) {
+        //         return search.destination.name.includes(searchedAddress.toString());
+        //     } else if (search.from.name.includes(searchedAddress.toString())) {
+        //         return search.from.name.includes(searchedAddress.toString());
+        //     }
+        // });
+        console.log(this.searchAddresses);
     };
     DashboardComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
@@ -859,6 +892,95 @@ var DisplaysignComponent = /** @class */ (function () {
         __metadata("design:paramtypes", [_angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"]])
     ], DisplaysignComponent);
     return DisplaysignComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/search/search.component.scss":
+/*!**********************************************!*\
+  !*** ./src/app/search/search.component.scss ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3NlYXJjaC9zZWFyY2guY29tcG9uZW50LnNjc3MifQ== */"
+
+/***/ }),
+
+/***/ "./src/app/search/search.component.ts":
+/*!********************************************!*\
+  !*** ./src/app/search/search.component.ts ***!
+  \********************************************/
+/*! exports provided: SearchComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SearchComponent", function() { return SearchComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var SearchComponent = /** @class */ (function () {
+    function SearchComponent(fb) {
+        this.fb = fb;
+        this.setAddress = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
+    }
+    SearchComponent.prototype.ngOnInit = function () {
+        this.searchSign = this.fb.group({
+            search: ['', [_angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].minLength(3), _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].maxLength(50)]],
+        });
+    };
+    SearchComponent.prototype.ngAfterViewInit = function () {
+        this.getSearchedPlaceAutocomplete();
+    };
+    SearchComponent.prototype.getSearchedPlaceAutocomplete = function () {
+        var _this = this;
+        var autocomplete = new google.maps.places.Autocomplete(this.search.nativeElement, {
+            componentRestrictions: { country: 'ZA' },
+            types: [this.adressType] // 'establishment' / 'address' / 'geocode'
+        });
+        google.maps.event.addListener(autocomplete, 'place_changed', function () {
+            var place = autocomplete.getPlace().name;
+            _this.searchedRoute = place;
+            _this.invokeEvent(place);
+        });
+    };
+    SearchComponent.prototype.invokeEvent = function (place) {
+        this.setAddress.emit(place);
+    };
+    __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])(),
+        __metadata("design:type", String)
+    ], SearchComponent.prototype, "adressType", void 0);
+    __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Output"])(),
+        __metadata("design:type", _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"])
+    ], SearchComponent.prototype, "setAddress", void 0);
+    __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewChild"])('search', { static: false }),
+        __metadata("design:type", Object)
+    ], SearchComponent.prototype, "search", void 0);
+    SearchComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'Search',
+            template: __webpack_require__(/*! raw-loader!./search.component.html */ "./node_modules/raw-loader/index.js!./src/app/search/search.component.html"),
+            styles: [__webpack_require__(/*! ./search.component.scss */ "./src/app/search/search.component.scss")]
+        }),
+        __metadata("design:paramtypes", [_angular_forms__WEBPACK_IMPORTED_MODULE_1__["FormBuilder"]])
+    ], SearchComponent);
+    return SearchComponent;
 }());
 
 
@@ -1080,6 +1202,7 @@ var TakemeComponent = /** @class */ (function () {
     TakemeComponent.prototype.ngOnInit = function () {
     };
     TakemeComponent.prototype.getAddress = function (place) {
+        console.log(place);
         this.address = place['formatted_address'];
         this.formattedAddress = place['formatted_address'];
     };
@@ -1155,7 +1278,7 @@ var TakemeModule = /** @class */ (function () {
                 _takeme_component__WEBPACK_IMPORTED_MODULE_6__["TakemeComponent"],
                 _displaysign_displaysign_component__WEBPACK_IMPORTED_MODULE_7__["DisplaysignComponent"],
                 _addsignfordirections_addsignfordirections_component__WEBPACK_IMPORTED_MODULE_8__["AddsignfordirectionsComponent"],
-                _searchaddress_searchaddress_component__WEBPACK_IMPORTED_MODULE_9__["SearchaddressComponent"]
+                _searchaddress_searchaddress_component__WEBPACK_IMPORTED_MODULE_9__["SearchaddressComponent"],
             ],
             schemas: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["NO_ERRORS_SCHEMA"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["CUSTOM_ELEMENTS_SCHEMA"]]
         })
