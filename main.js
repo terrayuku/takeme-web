@@ -1,5 +1,16 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["main"],{
 
+/***/ "./node_modules/raw-loader/index.js!./src/app/about/about.component.html":
+/*!**********************************************************************!*\
+  !*** ./node_modules/raw-loader!./src/app/about/about.component.html ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"main-content\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-md-4\">\n                <div class=\"card card-chart\">\n                    <div class=\"card-body\">\n                        <h4 class=\"card-title card-header-success\">Takeme</h4>\n                        <div class=\"card\">\n                            <img class=\"img\" src=\"../assets/img/takeataxi.jpg\" height=\"150px\" alt=\"SIGN\"/>\n                        </div>\n                        <div class=\"card\">\n                            <blockquote class=\"blockquote\">\n                                <small>\n                                    New in the hood? Quickly learn local hand signs for taxis with us\n                                </small>\n                            </blockquote>\n                            <p>\n                                Takeme is your solution, making traveling easier than before. Just give us you location\n                                and desired destination & we'll find you the correct sign.\n                            </p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-md-4\">\n                <div class=\"card card-chart\">\n                    <div class=\"card-body\">\n                        <h4 class=\"card-title card-header-success\">Convenient</h4>\n                        <div class=\"card\">\n                            <img class=\"img\" src=\"../assets/img/million.jpeg\" height=\"150px\" alt=\"SIGN\"/>\n                        </div>\n                        <div class=\"card\">\n                            <blockquote class=\"blockquote\">\n                                <small>\n                                    Approximately 14 million people use a taxi everyday, at least twice a day\n                                </small>\n                            </blockquote>\n                            <p>\n                                Takeme provides convenience, safety, speed for you to move from you location to your\n                                desired destination.\n                            </p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-md-4\">\n                <div class=\"card card-chart\">\n                    <div class=\"card-body\">\n                        <h4 class=\"card-title card-header-success\">Growing</h4>\n                        <div class=\"card\">\n                            <img class=\"img\" src=\"../assets/img/buses.jpeg\" height=\"150px\" alt=\"SIGN\"/>\n                        </div>\n                        <div class=\"card\">\n                            <blockquote class=\"blockquote\">\n                                <small>\n                                    Over 10 000 people are moving\n                                    to new areas every month\n                                </small>\n                            </blockquote>\n                            <p>\n                                We are tirelessly working hard on improving our application's understanding of what you need.\n                                We will be releasing the iOS version shortly.\n                            </p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n        <div class=\"row\">\n            <div class=\"col-md-12\">\n                <div class=\"card\">\n                    <div class=\"card-body bg-success\">\n                        <blockquote class=\"blockquote\" style=\"margin-bottom: 0rem !important;\">\n                            <small style=\"color: white\">\n                                Stay with us while we are working hard to giving you the best of public transportation\n                            </small>\n                        </blockquote>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>"
+
+/***/ }),
+
 /***/ "./node_modules/raw-loader/index.js!./src/app/addsignfordirections/addsignfordirections.component.html":
 /*!****************************************************************************************************!*\
   !*** ./node_modules/raw-loader!./src/app/addsignfordirections/addsignfordirections.component.html ***!
@@ -29,7 +40,7 @@ module.exports = "<div class=\"main-panel\">\n    <app-navbar></app-navbar>\n   
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<footer class=\"footer \">\n    <div class=\"container-fluid\">\n        <nav class=\"pull-left\">\n            <ul>\n                <li>\n                    <a href=\"https://www.reimagine.com\">\n                        ReImagine\n                    </a>\n                </li>\n                <li>\n                    <a href=\"https://reimagine.com/about-us\">\n                        About Us\n                    </a>\n                </li>\n                <li>\n                    <a href=\"http://blog.reimagine.com\">\n                        Blog\n                    </a>\n                </li>\n                <li>\n                    <a href=\"https://www.reimagine.com/license\">\n                        Licenses\n                    </a>\n                </li>\n            </ul>\n        </nav>\n        <div class=\"copyright pull-right\">\n            &copy;\n            {{test | date: 'yyyy'}}, by\n            <a href=\"https://www.creative-tim.com\" target=\"_blank\">ReImagine</a>\n        </div>\n    </div>\n</footer>\n"
+module.exports = "<footer class=\"footer \">\n    <div class=\"container-fluid\">\n        <nav class=\"pull-left\">\n            <ul>\n                <li>\n                    <a href=\"https://www.reimagine.com\">\n                        ReImagine\n                    </a>\n                </li>\n                <li>\n                    <a href=\"https://reimagine.com/about-us\">\n                        About Us\n                    </a>\n                </li>\n                <li>\n                    <a href=\"https://www.reimagine.com/license\">\n                        Licenses\n                    </a>\n                </li>\n            </ul>\n        </nav>\n        <div class=\"copyright pull-right\">\n            &copy;\n            {{test | date: 'yyyy'}}, by\n            <a href=\"https://www.reimagine.com\" target=\"_blank\">ReImagine</a>\n        </div>\n    </div>\n</footer>\n"
 
 /***/ }),
 
@@ -40,7 +51,7 @@ module.exports = "<footer class=\"footer \">\n    <div class=\"container-fluid\"
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<nav class=\"navbar navbar-expand-lg navbar-transparent  navbar-absolute fixed-top\">\n    <div class=\"container-fluid\">\n        <div class=\"navbar-wrapper\">\n          <a class=\"navbar-brand\" href=\"javascript:void(0)\">{{getTitle()}}</a>\n        </div>\n        <!--<button mat-raised-button class=\"navbar-toggler\" type=\"button\" (click)=\"sidebarToggle()\">-->\n            <!--<span class=\"sr-only\">Toggle navigation</span>-->\n            <!--<span class=\"navbar-toggler-icon icon-bar\"></span>-->\n            <!--<span class=\"navbar-toggler-icon icon-bar\"></span>-->\n            <!--<span class=\"navbar-toggler-icon icon-bar\"></span>-->\n        <!--</button>-->\n        <div class=\"justify-content-end\" id=\"navigation\">\n            <ul class=\"navbar-nav\" style=\"flex-direction: unset\">\n                <li class=\"nav-item\">\n                    <a mat-button class=\"nav-link\" href=\"#settings\" data-toggle=\"tab\">\n                        About\n                    </a>\n                </li>\n                <li class=\"nav-item\">\n                    <a mat-button class=\"nav-link\" routerLink=\"/dashboard\" data-toggle=\"tab\">\n                        Dashboard\n                    </a>\n                </li>\n            </ul>\n        </div>\n    </div>\n</nav>"
+module.exports = "<nav class=\"navbar navbar-expand-lg navbar-transparent  navbar-absolute fixed-top\">\n    <div class=\"container-fluid\">\n        <div class=\"navbar-wrapper\">\n          <a class=\"navbar-brand\" routerLink=\"/\">{{getTitle()}}</a>\n        </div>\n        <!--<button mat-raised-button class=\"navbar-toggler\" type=\"button\" (click)=\"sidebarToggle()\">-->\n            <!--<span class=\"sr-only\">Toggle navigation</span>-->\n            <!--<span class=\"navbar-toggler-icon icon-bar\"></span>-->\n            <!--<span class=\"navbar-toggler-icon icon-bar\"></span>-->\n            <!--<span class=\"navbar-toggler-icon icon-bar\"></span>-->\n        <!--</button>-->\n        <div class=\"justify-content-end\" id=\"navigation\">\n            <ul class=\"navbar-nav\" style=\"flex-direction: unset\">\n                <li class=\"nav-item\">\n                    <a mat-button class=\"nav-link\" routerLink=\"/about\" data-toggle=\"tab\">\n                        About\n                    </a>\n                </li>\n                <li class=\"nav-item\">\n                    <a mat-button class=\"nav-link\" routerLink=\"/dashboard\" data-toggle=\"tab\">\n                        Dashboard\n                    </a>\n                </li>\n            </ul>\n        </div>\n    </div>\n</nav>"
 
 /***/ }),
 
@@ -138,6 +149,58 @@ webpackAsyncContext.keys = function webpackAsyncContextKeys() {
 };
 webpackAsyncContext.id = "./src/$$_lazy_route_resource lazy recursive";
 module.exports = webpackAsyncContext;
+
+/***/ }),
+
+/***/ "./src/app/about/about.component.scss":
+/*!********************************************!*\
+  !*** ./src/app/about/about.component.scss ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2Fib3V0L2Fib3V0LmNvbXBvbmVudC5zY3NzIn0= */"
+
+/***/ }),
+
+/***/ "./src/app/about/about.component.ts":
+/*!******************************************!*\
+  !*** ./src/app/about/about.component.ts ***!
+  \******************************************/
+/*! exports provided: AboutComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AboutComponent", function() { return AboutComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var AboutComponent = /** @class */ (function () {
+    function AboutComponent() {
+    }
+    AboutComponent.prototype.ngOnInit = function () {
+    };
+    AboutComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-about',
+            template: __webpack_require__(/*! raw-loader!./about.component.html */ "./node_modules/raw-loader/index.js!./src/app/about/about.component.html"),
+            styles: [__webpack_require__(/*! ./about.component.scss */ "./src/app/about/about.component.scss")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], AboutComponent);
+    return AboutComponent;
+}());
+
+
 
 /***/ }),
 
@@ -265,12 +328,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../environments/environment */ "./src/environments/environment.ts");
 /* harmony import */ var _dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./dashboard/dashboard.component */ "./src/app/dashboard/dashboard.component.ts");
 /* harmony import */ var _search_search_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./search/search.component */ "./src/app/search/search.component.ts");
+/* harmony import */ var _about_about_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./about/about.component */ "./src/app/about/about.component.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -307,6 +372,7 @@ var AppModule = /** @class */ (function () {
                 _app_component__WEBPACK_IMPORTED_MODULE_9__["AppComponent"],
                 _dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_12__["DashboardComponent"],
                 _search_search_component__WEBPACK_IMPORTED_MODULE_13__["SearchComponent"],
+                _about_about_component__WEBPACK_IMPORTED_MODULE_14__["AboutComponent"],
             ],
             providers: [],
             bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_9__["AppComponent"]],
@@ -338,12 +404,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _displaysign_displaysign_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./displaysign/displaysign.component */ "./src/app/displaysign/displaysign.component.ts");
 /* harmony import */ var _addsignfordirections_addsignfordirections_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./addsignfordirections/addsignfordirections.component */ "./src/app/addsignfordirections/addsignfordirections.component.ts");
 /* harmony import */ var _dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./dashboard/dashboard.component */ "./src/app/dashboard/dashboard.component.ts");
+/* harmony import */ var _about_about_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./about/about.component */ "./src/app/about/about.component.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -379,6 +447,14 @@ var routes = [
         path: 'dashboard',
         pathMatch: 'full',
         component: _dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_7__["DashboardComponent"],
+        children: [{
+                path: '',
+                loadChildren: './takeme/takeme.module#TakemeModule'
+            }]
+    }, {
+        path: 'about',
+        pathMatch: 'full',
+        component: _about_about_component__WEBPACK_IMPORTED_MODULE_8__["AboutComponent"],
         children: [{
                 path: '',
                 loadChildren: './takeme/takeme.module#TakemeModule'
@@ -941,9 +1017,20 @@ var SearchComponent = /** @class */ (function () {
         this.searchSign = this.fb.group({
             search: ['', [_angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].minLength(3), _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].maxLength(50)]],
         });
+        this.getCurrentLocation();
     };
     SearchComponent.prototype.ngAfterViewInit = function () {
         this.getSearchedPlaceAutocomplete();
+    };
+    SearchComponent.prototype.getCurrentLocation = function () {
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(function (position) {
+                console.log(position);
+            });
+        }
+        else {
+            alert("Geolocation is not supported by this browser.");
+        }
     };
     SearchComponent.prototype.getSearchedPlaceAutocomplete = function () {
         var _this = this;
