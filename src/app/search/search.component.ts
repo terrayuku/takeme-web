@@ -25,10 +25,21 @@ export class SearchComponent implements OnInit {
     ngOnInit() {
         this.searchSign = this.fb.group({
             search: ['', [Validators.minLength(3), Validators.maxLength(50)]],
-        })
+        });
+        this.getCurrentLocation()
     }
     ngAfterViewInit() {
         this.getSearchedPlaceAutocomplete();
+    }
+
+    getCurrentLocation() {
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition((position) => {
+                console.log(position);
+            });
+        } else {
+            alert("Geolocation is not supported by this browser.");
+        }
     }
 
     private getSearchedPlaceAutocomplete() {

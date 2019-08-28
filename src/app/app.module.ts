@@ -15,6 +15,7 @@ import {environment} from "../environments/environment";
 import {CUSTOM_ELEMENTS_SCHEMA} from "@angular/core";
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { SearchComponent } from './search/search.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   imports: [
@@ -33,6 +34,7 @@ import { SearchComponent } from './search/search.component';
     AppComponent,
     DashboardComponent,
     SearchComponent,
+    AboutComponent,
 
   ],
   providers: [],

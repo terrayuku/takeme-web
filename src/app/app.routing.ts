@@ -7,6 +7,7 @@ import {TakemeComponent} from "./takeme/takeme.component";
 import {DisplaysignComponent} from "./displaysign/displaysign.component";
 import {AddsignfordirectionsComponent} from "./addsignfordirections/addsignfordirections.component";
 import {DashboardComponent} from "./dashboard/dashboard.component";
+import {AboutComponent} from "./about/about.component";
 
 const routes: Routes =[
   {
@@ -35,6 +36,14 @@ const routes: Routes =[
     path: 'dashboard',
     pathMatch: 'full',
     component: DashboardComponent,
+    children: [{
+      path: '',
+      loadChildren: './takeme/takeme.module#TakemeModule'
+    }]
+  }, {
+    path: 'about',
+    pathMatch: 'full',
+    component: AboutComponent,
     children: [{
       path: '',
       loadChildren: './takeme/takeme.module#TakemeModule'
