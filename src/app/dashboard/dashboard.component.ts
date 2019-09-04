@@ -55,7 +55,7 @@ export class DashboardComponent implements OnInit {
         //         return search.from.name.includes(searchedAddress.toString());
         //     }
         // });
-        console.log(this.searchAddresses);
+        // console.log(this.searchAddresses);
     }
 
 }

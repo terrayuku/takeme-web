@@ -35,7 +35,7 @@ export class SearchComponent implements OnInit {
     getCurrentLocation() {
         if (navigator.geolocation) {
             navigator.geolocation.getCurrentPosition((position) => {
-                console.log(position);
+                // console.log(position);
             });
         } else {
             alert("Geolocation is not supported by this browser.");
@@ -43,6 +43,7 @@ export class SearchComponent implements OnInit {
     }
 
     private getSearchedPlaceAutocomplete() {
+
         const autocomplete = new google.maps.places.Autocomplete(this.search.nativeElement,
             {
                 componentRestrictions: {country: 'ZA'},
@@ -56,6 +57,10 @@ export class SearchComponent implements OnInit {
     }
 
     invokeEvent(place: Object) {
+        this.setAddress.emit(place);
+    }
+
+    address(place: Object) {
         this.setAddress.emit(place);
     }
 

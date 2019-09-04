@@ -81,15 +81,15 @@ export class SearchaddressComponent implements OnInit {
     onSubmit() {
         this.db.list('/signs/' + this.destinationLocation.toUpperCase()).valueChanges()
             .forEach(sign => {
-                console.log(sign);
+                // console.log(sign);
                 if (sign.length > 0) {
                     sign.forEach(s => {
                         this.signs = s as Sign;
-                        console.log("Sign", this.signs);
+                        // console.log("Sign", this.signs);
                         // make sure the current location of the user is the same as the one corresponding to the
                         // download image url
                         if (this.signs.from.name === this.currentLocation) {
-                            console.log(this.signs.destination, this.signs.from, this.signs.downloadUrl);
+                            // console.log(this.signs.destination, this.signs.from, this.signs.downloadUrl);
                             if (this.signs.downloadUrl !== undefined) {
                                 this.router.navigateByUrl('display/sign', {
                                     queryParams: {
