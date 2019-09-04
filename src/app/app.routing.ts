@@ -12,7 +12,7 @@ import {AboutComponent} from "./about/about.component";
 const routes: Routes =[
   {
     path: '',
-    component: TakemeComponent,
+    component: AboutComponent,
     children: [{
       path: '',
       loadChildren: './takeme/takeme.module#TakemeModule'
@@ -40,15 +40,16 @@ const routes: Routes =[
       path: '',
       loadChildren: './takeme/takeme.module#TakemeModule'
     }]
-  }, {
-    path: 'about',
-    pathMatch: 'full',
-    component: AboutComponent,
-    children: [{
-      path: '',
-      loadChildren: './takeme/takeme.module#TakemeModule'
-    }]
   }
+  // , {
+  //   path: 'about',
+  //   pathMatch: 'full',
+  //   component: AboutComponent,
+  //   children: [{
+  //     path: '',
+  //     loadChildren: './takeme/takeme.module#TakemeModule'
+  //   }]
+  // }
 ];
 
 @NgModule({

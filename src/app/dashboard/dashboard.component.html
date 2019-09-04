@@ -3,9 +3,22 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="card  card-plain">
-                    <div class="card-header card-header-success">
-                        <h4 class="card-title">{{ searchAddresses.length <= 0 ? listOfSigns.length : searchAddresses.length }} Route(s) Covered</h4>
+                    <div class="card-header card-header-success" style="height: 108px;">
+                        <h4 class="card-title">{{ searchAddresses.length <= 0 ? listOfSigns.length :
+                            searchAddresses.length }} Route(s) Covered</h4>
                         <Search (setAddress)="getAddress($event)" adressType="geocode"></Search>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card  card-plain">
+                    <div class="card-header card-header-success">
+                        <h4 class="card-title" style="margin: 0">
+                            Download Our Mobile App Now
+                        </h4>
+                        <a routerLink="dashboard"> <img class="img"
+                                                        src="https://firebasestorage.googleapis.com/v0/b/takeme-2019.appspot.com/o/google-play-badge.png?alt=media&token=eea9d4e6-2b20-4acf-8e10-fec50a80617e"
+                                                        width="150px"></a>
                     </div>
                 </div>
             </div>
@@ -24,11 +37,11 @@
                         </div>
                     </div>
                     <!--<div class="card-footer">-->
-                        <!--<div class="stats">-->
-                            <!--<button mat-raised-button type="submit" class="btn btn-danger pull-right" (click)="deleteSign(i)">-->
-                                <!--Delete Sing</button>-->
-                            <!--<div class="clearfix"></div>-->
-                        <!--</div>-->
+                    <!--<div class="stats">-->
+                    <!--<button mat-raised-button type="submit" class="btn btn-danger pull-right" (click)="deleteSign(i)">-->
+                    <!--Delete Sing</button>-->
+                    <!--<div class="clearfix"></div>-->
+                    <!--</div>-->
                     <!--</div>-->
                 </div>
             </div>
@@ -47,11 +60,11 @@
                         </div>
                     </div>
                     <!--<div class="card-footer">-->
-                        <!--<div class="stats">-->
-                            <!--<button mat-raised-button type="submit" class="btn btn-danger pull-right" (click)="deleteSign(i)">-->
-                                <!--Delete Sing</button>-->
-                            <!--<div class="clearfix"></div>-->
-                        <!--</div>-->
+                    <!--<div class="stats">-->
+                    <!--<button mat-raised-button type="submit" class="btn btn-danger pull-right" (click)="deleteSign(i)">-->
+                    <!--Delete Sing</button>-->
+                    <!--<div class="clearfix"></div>-->
+                    <!--</div>-->
                     <!--</div>-->
                 </div>
             </div>

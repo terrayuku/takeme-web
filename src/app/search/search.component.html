@@ -6,7 +6,7 @@
         {{ message }}
     </span>
 </div>
-<form [formGroup]="searchSign">
+<form [formGroup]="searchSign" (ngSubmit)="address(searchedAddress)">
   <div class="input-group no-border form-control-color">
     <input type="text" class="form-control" style="color: white;" #search placeholder="Search..."
            [(ngModel)]="searchedAddress" formControlName="search" >
