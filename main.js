@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"main-content\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-md-4\">\n                <div class=\"card card-chart\">\n                    <div class=\"card-body\">\n                        <h4 class=\"card-title card-header-success\">Takeme</h4>\n                        <div class=\"card\">\n                            <img class=\"img\" src=\"https://firebasestorage.googleapis.com/v0/b/takeme-2019.appspot.com/o/takeataxi.jpg?alt=media&token=1771708b-f121-42b6-afc1-ecc5bd69cf10\" height=\"150px\" alt=\"SIGN\"/>\n                        </div>\n                        <div class=\"card\">\n                            <blockquote class=\"blockquote\">\n                                <small>\n                                    New in the hood? Quickly learn local hand signs for taxis with us\n                                </small>\n                            </blockquote>\n                            <p>\n                                Takeme is your solution, making traveling easier than before. Just give us your location\n                                and desired destination & we'll find you the correct sign.\n                            </p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-md-4\">\n                <div class=\"card card-chart\">\n                    <div class=\"card-body\">\n                        <h4 class=\"card-title card-header-success\">Convenient</h4>\n                        <div class=\"card\">\n                            <img class=\"img\" src=\"https://firebasestorage.googleapis.com/v0/b/takeme-2019.appspot.com/o/million.jpeg?alt=media&token=66eaec58-9a87-418d-b487-eaaad52e24a6\" height=\"150px\" alt=\"SIGN\"/>\n                        </div>\n                        <div class=\"card\">\n                            <blockquote class=\"blockquote\">\n                                <small>\n                                    Approximately 14 million people use a taxi everyday, at least twice a day\n                                </small>\n                            </blockquote>\n                            <p>\n                                Takeme provides convenience, safety, speed for you to move from your location to your\n                                desired destination.\n                            </p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-md-4\">\n                <div class=\"card card-chart\">\n                    <div class=\"card-body\">\n                        <h4 class=\"card-title card-header-success\">Growing</h4>\n                        <div class=\"card\">\n                            <img class=\"img\" src=\"https://firebasestorage.googleapis.com/v0/b/takeme-2019.appspot.com/o/buses.jpeg?alt=media&token=5ac3b678-588a-442f-9110-e2c33b2a0045\" height=\"150px\" alt=\"SIGN\"/>\n                        </div>\n                        <div class=\"card\">\n                            <blockquote class=\"blockquote\">\n                                <small>\n                                    Over 10 000 people are moving\n                                    to new areas every month\n                                </small>\n                            </blockquote>\n                            <p>\n                                We are tirelessly working hard on improving our application's understanding of what you need.\n                                We will be releasing the iOS version shortly.\n                            </p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n        <div class=\"row\">\n            <div class=\"col-md-12\">\n                <div class=\"card\">\n                    <div class=\"card-body bg-success\">\n                        <blockquote class=\"blockquote\" style=\"margin-bottom: 0rem !important;\">\n                            <small style=\"color: white\">\n                                Stay with us while we are working hard to giving you the best of public transportation\n                            </small>\n                        </blockquote>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>"
+module.exports = "<div class=\"main-content\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-md-6\">\n                <div class=\"card  card-plain\">\n                    <div class=\"card-header card-header-success\" style=\"height: 108px;\">\n                        <h4 class=\"card-title\" style=\"margin: 0\">\n                            Download Our Mobile App Now\n                            <a routerLink=\"dashboard\"> <img class=\"img\"\n                                                            src=\"https://firebasestorage.googleapis.com/v0/b/takeme-2019.appspot.com/o/google-play-badge.png?alt=media&token=eea9d4e6-2b20-4acf-8e10-fec50a80617e\"\n                                                            width=\"150px\"></a>\n                        </h4>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-md-6\">\n                <div class=\"card  card-plain\">\n                    <div class=\"card-header\">\n                        <h4 class=\"card-title card-header-success\">\n                        Or Visit Our Hand Sign\n                        <button style=\"border-width: 0; padding: 0;\" class=\"btn-success\" routerLink=\"dashboard\"> Dashboard</button>\n                        </h4>\n                    </div>\n                </div>\n            </div>\n        </div>\n        <div class=\"row\">\n            <div class=\"col-md-4\">\n                <div class=\"card card-chart\">\n                    <div class=\"card-body\">\n                        <h4 class=\"card-title card-header-success\">Takeme</h4>\n                        <div class=\"card\">\n                            <img class=\"img\"\n                                 src=\"https://firebasestorage.googleapis.com/v0/b/takeme-2019.appspot.com/o/takeataxi.jpg?alt=media&token=1771708b-f121-42b6-afc1-ecc5bd69cf10\"\n                                 height=\"150px\" alt=\"SIGN\"/>\n                        </div>\n                        <div class=\"card\">\n                            <blockquote class=\"blockquote\">\n                                <small>\n                                    New in the hood? Quickly learn local hand signs for taxis with us\n                                </small>\n                            </blockquote>\n                            <p>\n                                Takeme is your solution, making traveling easier than before. Just give us your location\n                                and desired destination & we'll find you the correct sign.\n                            </p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-md-4\">\n                <div class=\"card card-chart\">\n                    <div class=\"card-body\">\n                        <h4 class=\"card-title card-header-success\">Convenient</h4>\n                        <div class=\"card\">\n                            <img class=\"img\"\n                                 src=\"https://firebasestorage.googleapis.com/v0/b/takeme-2019.appspot.com/o/million.jpeg?alt=media&token=66eaec58-9a87-418d-b487-eaaad52e24a6\"\n                                 height=\"150px\" alt=\"SIGN\"/>\n                        </div>\n                        <div class=\"card\">\n                            <blockquote class=\"blockquote\">\n                                <small>\n                                    Approximately 14 million people use a taxi everyday, at least twice a day\n                                </small>\n                            </blockquote>\n                            <p>\n                                Takeme provides convenience, safety, speed for you to move from your location to your\n                                desired destination.\n                            </p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-md-4\">\n                <div class=\"card card-chart\">\n                    <div class=\"card-body\">\n                        <h4 class=\"card-title card-header-success\">Growing</h4>\n                        <div class=\"card\">\n                            <img class=\"img\"\n                                 src=\"https://firebasestorage.googleapis.com/v0/b/takeme-2019.appspot.com/o/buses.jpeg?alt=media&token=5ac3b678-588a-442f-9110-e2c33b2a0045\"\n                                 height=\"150px\" alt=\"SIGN\"/>\n                        </div>\n                        <div class=\"card\">\n                            <blockquote class=\"blockquote\">\n                                <small>\n                                    Over 10 000 people are moving\n                                    to new areas every month\n                                </small>\n                            </blockquote>\n                            <p>\n                                We are tirelessly working hard on improving our application's understanding of what you\n                                need.\n                                We will be releasing the iOS version shortly.\n                            </p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n        <div class=\"row\">\n            <div class=\"col-md-12\">\n                <div class=\"card\">\n                    <div class=\"card-body bg-success\">\n                        <blockquote class=\"blockquote\" style=\"margin-bottom: 0rem !important;\">\n                            <small style=\"color: white\">\n                                Stay with us while we are working hard to giving you the best of public transportation\n                            </small>\n                        </blockquote>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>"
 
 /***/ }),
 
@@ -51,7 +51,7 @@ module.exports = "<footer class=\"footer \">\n    <div class=\"container-fluid\"
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<nav class=\"navbar navbar-expand-lg navbar-transparent  navbar-absolute fixed-top\">\n    <div class=\"container-fluid\">\n        <div class=\"navbar-wrapper\">\n          <a class=\"navbar-brand\" routerLink=\"/\">{{getTitle()}}</a>\n        </div>\n        <!--<button mat-raised-button class=\"navbar-toggler\" type=\"button\" (click)=\"sidebarToggle()\">-->\n            <!--<span class=\"sr-only\">Toggle navigation</span>-->\n            <!--<span class=\"navbar-toggler-icon icon-bar\"></span>-->\n            <!--<span class=\"navbar-toggler-icon icon-bar\"></span>-->\n            <!--<span class=\"navbar-toggler-icon icon-bar\"></span>-->\n        <!--</button>-->\n        <div class=\"justify-content-end\" id=\"navigation\">\n            <ul class=\"navbar-nav\" style=\"flex-direction: unset\">\n                <li class=\"nav-item\">\n                    <a mat-button class=\"nav-link\" routerLink=\"/about\" data-toggle=\"tab\">\n                        About\n                    </a>\n                </li>\n                <li class=\"nav-item\">\n                    <a mat-button class=\"nav-link\" routerLink=\"/dashboard\" data-toggle=\"tab\">\n                        Dashboard\n                    </a>\n                </li>\n            </ul>\n        </div>\n    </div>\n</nav>"
+module.exports = "<nav class=\"navbar navbar-expand-lg navbar-transparent  navbar-absolute fixed-top\">\n    <div class=\"container-fluid\">\n        <div class=\"navbar-wrapper\">\n          <a class=\"navbar-brand\" routerLink=\"/\">{{getTitle()}}</a>\n        </div>\n        <!--<button mat-raised-button class=\"navbar-toggler\" type=\"button\" (click)=\"sidebarToggle()\">-->\n            <!--<span class=\"sr-only\">Toggle navigation</span>-->\n            <!--<span class=\"navbar-toggler-icon icon-bar\"></span>-->\n            <!--<span class=\"navbar-toggler-icon icon-bar\"></span>-->\n            <!--<span class=\"navbar-toggler-icon icon-bar\"></span>-->\n        <!--</button>-->\n        <div class=\"justify-content-end\" id=\"navigation\">\n            <ul class=\"navbar-nav\" style=\"flex-direction: unset\">\n                <!--<li class=\"nav-item\">-->\n                    <!--<a mat-button class=\"nav-link\" routerLink=\"/about\" data-toggle=\"tab\">-->\n                        <!--About-->\n                    <!--</a>-->\n                <!--</li>-->\n                <li class=\"nav-item\">\n                    <a mat-button class=\"nav-link\" routerLink=\"/dashboard\" data-toggle=\"tab\">\n                        Dashboard\n                    </a>\n                </li>\n            </ul>\n        </div>\n    </div>\n</nav>"
 
 /***/ }),
 
@@ -73,7 +73,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"main-content\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-md-6\">\n                <div class=\"card  card-plain\">\n                    <div class=\"card-header card-header-success\">\n                        <h4 class=\"card-title\">{{ searchAddresses.length <= 0 ? listOfSigns.length : searchAddresses.length }} Route(s) Covered</h4>\n                        <Search (setAddress)=\"getAddress($event)\" adressType=\"geocode\"></Search>\n                    </div>\n                </div>\n            </div>\n        </div>\n        <div class=\"row\" *ngIf=\"searchAddresses.length <= 0\">\n            <div class=\"col-md-4\" *ngFor=\"let sign of listOfSigns; let i = index\">\n                <div class=\"card card-chart\">\n                    <div class=\"card-body\">\n                        <h4 class=\"card-title\">{{ sign.from.name }} => {{ sign.destination.name }}</h4>\n                        <div class=\"card card-profile\">\n                            <div class=\"card-avatar\">\n                                <a href=\"javascript:void(0)\">\n                                    <img class=\"img\" src=\"{{ sign.downloadUrl }}\" alt=\"SIGN\"/>\n                                </a>\n                            </div>\n                        </div>\n                    </div>\n                    <!--<div class=\"card-footer\">-->\n                        <!--<div class=\"stats\">-->\n                            <!--<button mat-raised-button type=\"submit\" class=\"btn btn-danger pull-right\" (click)=\"deleteSign(i)\">-->\n                                <!--Delete Sing</button>-->\n                            <!--<div class=\"clearfix\"></div>-->\n                        <!--</div>-->\n                    <!--</div>-->\n                </div>\n            </div>\n        </div>\n        <div class=\"row\" *ngIf=\"searchAddresses.length > 0\">\n            <div class=\"col-md-4\" *ngFor=\"let sign of searchAddresses; let i = index\">\n                <div class=\"card card-chart\">\n                    <div class=\"card-body\">\n                        <h4 class=\"card-title\">{{ sign.from.name }} => {{ sign.destination.name }}</h4>\n                        <div class=\"card card-profile\">\n                            <div class=\"card-avatar\">\n                                <a href=\"javascript:void(0)\">\n                                    <img class=\"img\" src=\"{{ sign.downloadUrl }}\" alt=\"SIGN\"/>\n                                </a>\n                            </div>\n                        </div>\n                    </div>\n                    <!--<div class=\"card-footer\">-->\n                        <!--<div class=\"stats\">-->\n                            <!--<button mat-raised-button type=\"submit\" class=\"btn btn-danger pull-right\" (click)=\"deleteSign(i)\">-->\n                                <!--Delete Sing</button>-->\n                            <!--<div class=\"clearfix\"></div>-->\n                        <!--</div>-->\n                    <!--</div>-->\n                </div>\n            </div>\n        </div>\n    </div>\n</div>"
+module.exports = "<div class=\"main-content\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-md-6\">\n                <div class=\"card  card-plain\">\n                    <div class=\"card-header card-header-success\" style=\"height: 108px;\">\n                        <h4 class=\"card-title\">{{ searchAddresses.length <= 0 ? listOfSigns.length :\n                            searchAddresses.length }} Route(s) Covered</h4>\n                        <Search (setAddress)=\"getAddress($event)\" adressType=\"geocode\"></Search>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-md-6\">\n                <div class=\"card  card-plain\">\n                    <div class=\"card-header card-header-success\">\n                        <h4 class=\"card-title\" style=\"margin: 0\">\n                            Download Our Mobile App Now\n                        </h4>\n                        <a routerLink=\"dashboard\"> <img class=\"img\"\n                                                        src=\"https://firebasestorage.googleapis.com/v0/b/takeme-2019.appspot.com/o/google-play-badge.png?alt=media&token=eea9d4e6-2b20-4acf-8e10-fec50a80617e\"\n                                                        width=\"150px\"></a>\n                    </div>\n                </div>\n            </div>\n        </div>\n        <div class=\"row\" *ngIf=\"searchAddresses.length <= 0\">\n            <div class=\"col-md-4\" *ngFor=\"let sign of listOfSigns; let i = index\">\n                <div class=\"card card-chart\">\n                    <div class=\"card-body\">\n                        <h4 class=\"card-title\">{{ sign.from.name }} => {{ sign.destination.name }}</h4>\n                        <div class=\"card card-profile\">\n                            <div class=\"card-avatar\">\n                                <a href=\"javascript:void(0)\">\n                                    <img class=\"img\" src=\"{{ sign.downloadUrl }}\" alt=\"SIGN\"/>\n                                </a>\n                            </div>\n                        </div>\n                    </div>\n                    <!--<div class=\"card-footer\">-->\n                    <!--<div class=\"stats\">-->\n                    <!--<button mat-raised-button type=\"submit\" class=\"btn btn-danger pull-right\" (click)=\"deleteSign(i)\">-->\n                    <!--Delete Sing</button>-->\n                    <!--<div class=\"clearfix\"></div>-->\n                    <!--</div>-->\n                    <!--</div>-->\n                </div>\n            </div>\n        </div>\n        <div class=\"row\" *ngIf=\"searchAddresses.length > 0\">\n            <div class=\"col-md-4\" *ngFor=\"let sign of searchAddresses; let i = index\">\n                <div class=\"card card-chart\">\n                    <div class=\"card-body\">\n                        <h4 class=\"card-title\">{{ sign.from.name }} => {{ sign.destination.name }}</h4>\n                        <div class=\"card card-profile\">\n                            <div class=\"card-avatar\">\n                                <a href=\"javascript:void(0)\">\n                                    <img class=\"img\" src=\"{{ sign.downloadUrl }}\" alt=\"SIGN\"/>\n                                </a>\n                            </div>\n                        </div>\n                    </div>\n                    <!--<div class=\"card-footer\">-->\n                    <!--<div class=\"stats\">-->\n                    <!--<button mat-raised-button type=\"submit\" class=\"btn btn-danger pull-right\" (click)=\"deleteSign(i)\">-->\n                    <!--Delete Sing</button>-->\n                    <!--<div class=\"clearfix\"></div>-->\n                    <!--</div>-->\n                    <!--</div>-->\n                </div>\n            </div>\n        </div>\n    </div>\n</div>"
 
 /***/ }),
 
@@ -95,7 +95,7 @@ module.exports = "<div class=\"main-content\">\n    <div class=\"container\">\n 
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"alert alert-danger\" *ngIf=\"message\">\n  <button mat-button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-label=\"Close\">\n    <i class=\"material-icons\">close</i>\n  </button>\n  <span>\n        {{ message }}\n    </span>\n</div>\n<form [formGroup]=\"searchSign\">\n  <div class=\"input-group no-border form-control-color\">\n    <input type=\"text\" class=\"form-control\" style=\"color: white;\" #search placeholder=\"Search...\"\n           [(ngModel)]=\"searchedAddress\" formControlName=\"search\" >\n    <button mat-raised-button type=\"submit\" class=\"btn btn-white btn-round btn-just-icon\">\n      <i class=\"material-icons\">search</i>\n      <div class=\"ripple-container\"></div>\n    </button>\n  </div>\n</form>"
+module.exports = "<div class=\"alert alert-danger\" *ngIf=\"message\">\n  <button mat-button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-label=\"Close\">\n    <i class=\"material-icons\">close</i>\n  </button>\n  <span>\n        {{ message }}\n    </span>\n</div>\n<form [formGroup]=\"searchSign\" (ngSubmit)=\"address(searchedAddress)\">\n  <div class=\"input-group no-border form-control-color\">\n    <input type=\"text\" class=\"form-control\" style=\"color: white;\" #search placeholder=\"Search...\"\n           [(ngModel)]=\"searchedAddress\" formControlName=\"search\" >\n    <button mat-raised-button type=\"submit\" class=\"btn btn-white btn-round btn-just-icon\">\n      <i class=\"material-icons\">search</i>\n      <div class=\"ripple-container\"></div>\n    </button>\n  </div>\n</form>"
 
 /***/ }),
 
@@ -400,11 +400,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm5/common.js");
 /* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm5/platform-browser.js");
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
-/* harmony import */ var _takeme_takeme_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./takeme/takeme.component */ "./src/app/takeme/takeme.component.ts");
-/* harmony import */ var _displaysign_displaysign_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./displaysign/displaysign.component */ "./src/app/displaysign/displaysign.component.ts");
-/* harmony import */ var _addsignfordirections_addsignfordirections_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./addsignfordirections/addsignfordirections.component */ "./src/app/addsignfordirections/addsignfordirections.component.ts");
-/* harmony import */ var _dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./dashboard/dashboard.component */ "./src/app/dashboard/dashboard.component.ts");
-/* harmony import */ var _about_about_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./about/about.component */ "./src/app/about/about.component.ts");
+/* harmony import */ var _displaysign_displaysign_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./displaysign/displaysign.component */ "./src/app/displaysign/displaysign.component.ts");
+/* harmony import */ var _addsignfordirections_addsignfordirections_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./addsignfordirections/addsignfordirections.component */ "./src/app/addsignfordirections/addsignfordirections.component.ts");
+/* harmony import */ var _dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./dashboard/dashboard.component */ "./src/app/dashboard/dashboard.component.ts");
+/* harmony import */ var _about_about_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./about/about.component */ "./src/app/about/about.component.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -419,18 +418,17 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 
 
 
-
 var routes = [
     {
         path: '',
-        component: _takeme_takeme_component__WEBPACK_IMPORTED_MODULE_4__["TakemeComponent"],
+        component: _about_about_component__WEBPACK_IMPORTED_MODULE_7__["AboutComponent"],
         children: [{
                 path: '',
                 loadChildren: './takeme/takeme.module#TakemeModule'
             }]
     }, {
         path: 'display/sign',
-        component: _displaysign_displaysign_component__WEBPACK_IMPORTED_MODULE_5__["DisplaysignComponent"],
+        component: _displaysign_displaysign_component__WEBPACK_IMPORTED_MODULE_4__["DisplaysignComponent"],
         children: [{
                 path: '',
                 loadChildren: './takeme/takeme.module#TakemeModule'
@@ -438,7 +436,7 @@ var routes = [
     }, {
         path: 'add/sign',
         pathMatch: 'full',
-        component: _addsignfordirections_addsignfordirections_component__WEBPACK_IMPORTED_MODULE_6__["AddsignfordirectionsComponent"],
+        component: _addsignfordirections_addsignfordirections_component__WEBPACK_IMPORTED_MODULE_5__["AddsignfordirectionsComponent"],
         children: [{
                 path: '',
                 loadChildren: './takeme/takeme.module#TakemeModule'
@@ -446,20 +444,21 @@ var routes = [
     }, {
         path: 'dashboard',
         pathMatch: 'full',
-        component: _dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_7__["DashboardComponent"],
-        children: [{
-                path: '',
-                loadChildren: './takeme/takeme.module#TakemeModule'
-            }]
-    }, {
-        path: 'about',
-        pathMatch: 'full',
-        component: _about_about_component__WEBPACK_IMPORTED_MODULE_8__["AboutComponent"],
+        component: _dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_6__["DashboardComponent"],
         children: [{
                 path: '',
                 loadChildren: './takeme/takeme.module#TakemeModule'
             }]
     }
+    // , {
+    //   path: 'about',
+    //   pathMatch: 'full',
+    //   component: AboutComponent,
+    //   children: [{
+    //     path: '',
+    //     loadChildren: './takeme/takeme.module#TakemeModule'
+    //   }]
+    // }
 ];
 var AppRoutingModule = /** @class */ (function () {
     function AppRoutingModule() {
@@ -891,7 +890,7 @@ var DashboardComponent = /** @class */ (function () {
         //         return search.from.name.includes(searchedAddress.toString());
         //     }
         // });
-        console.log(this.searchAddresses);
+        // console.log(this.searchAddresses);
     };
     DashboardComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
@@ -1025,7 +1024,7 @@ var SearchComponent = /** @class */ (function () {
     SearchComponent.prototype.getCurrentLocation = function () {
         if (navigator.geolocation) {
             navigator.geolocation.getCurrentPosition(function (position) {
-                console.log(position);
+                // console.log(position);
             });
         }
         else {
@@ -1045,6 +1044,9 @@ var SearchComponent = /** @class */ (function () {
         });
     };
     SearchComponent.prototype.invokeEvent = function (place) {
+        this.setAddress.emit(place);
+    };
+    SearchComponent.prototype.address = function (place) {
         this.setAddress.emit(place);
     };
     __decorate([
@@ -1167,15 +1169,15 @@ var SearchaddressComponent = /** @class */ (function () {
         var _this = this;
         this.db.list('/signs/' + this.destinationLocation.toUpperCase()).valueChanges()
             .forEach(function (sign) {
-            console.log(sign);
+            // console.log(sign);
             if (sign.length > 0) {
                 sign.forEach(function (s) {
                     _this.signs = s;
-                    console.log("Sign", _this.signs);
+                    // console.log("Sign", this.signs);
                     // make sure the current location of the user is the same as the one corresponding to the
                     // download image url
                     if (_this.signs.from.name === _this.currentLocation) {
-                        console.log(_this.signs.destination, _this.signs.from, _this.signs.downloadUrl);
+                        // console.log(this.signs.destination, this.signs.from, this.signs.downloadUrl);
                         if (_this.signs.downloadUrl !== undefined) {
                             _this.router.navigateByUrl('display/sign', {
                                 queryParams: {
@@ -1289,7 +1291,7 @@ var TakemeComponent = /** @class */ (function () {
     TakemeComponent.prototype.ngOnInit = function () {
     };
     TakemeComponent.prototype.getAddress = function (place) {
-        console.log(place);
+        // console.log(place);
         this.address = place['formatted_address'];
         this.formattedAddress = place['formatted_address'];
     };
