@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"main-content\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-md-4\">\n                <div class=\"card card-chart\">\n                    <div class=\"card-body\">\n                        <h4 class=\"card-title card-header-success\">Takeme</h4>\n                        <div class=\"card\">\n                            <img class=\"img\"\n                                 src=\"https://firebasestorage.googleapis.com/v0/b/takeme-2019.appspot.com/o/takeataxi.jpg?alt=media&token=1771708b-f121-42b6-afc1-ecc5bd69cf10\"\n                                 height=\"150px\" alt=\"SIGN\"/>\n                        </div>\n                        <div class=\"card\">\n                            <blockquote class=\"blockquote\">\n                                <small>\n                                    New in the hood? Quickly learn local hand signs for taxis with us\n                                </small>\n                            </blockquote>\n                            <p>\n                                Takeme is your solution, making traveling easier than before. Just give us your location\n                                and desired destination & we'll find you the correct sign.\n                            </p>\n                        </div>\n                    </div>\n                    <div class=\"card-footer\">\n                        <h4 class=\"card-title\">\n                            Download Our Mobile App Now\n                        </h4>\n                        <a routerLink=\"dashboard\"> <img class=\"img\"\n                                                        src=\"https://firebasestorage.googleapis.com/v0/b/takeme-2019.appspot.com/o/google-play-badge.png?alt=media&token=eea9d4e6-2b20-4acf-8e10-fec50a80617e\"\n                                                        width=\"150px\"></a>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-md-4\">\n                <div class=\"card card-chart\">\n                    <div class=\"card-body\">\n                        <h4 class=\"card-title card-header-success\">Convenient</h4>\n                        <div class=\"card\">\n                            <img class=\"img\"\n                                 src=\"https://firebasestorage.googleapis.com/v0/b/takeme-2019.appspot.com/o/million.jpeg?alt=media&token=66eaec58-9a87-418d-b487-eaaad52e24a6\"\n                                 height=\"150px\" alt=\"SIGN\"/>\n                        </div>\n                        <div class=\"card\">\n                            <blockquote class=\"blockquote\">\n                                <small>\n                                    Approximately 14 million people use a taxi everyday, at least twice a day\n                                </small>\n                            </blockquote>\n                            <p>\n                                Takeme provides convenience, safety, speed for you to move from your location to your\n                                desired destination.\n                            </p>\n                        </div>\n                    </div>\n                    <div class=\"card-footer\">\n                        <h4 class=\"card-title\">\n                            Visit Out Hand Sign Dashboard\n                        </h4>\n                        <button class=\"btn btn-success\" routerLink=\"dashboard\"> Visit</button>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-md-4\">\n                <div class=\"card card-chart\">\n                    <div class=\"card-body\">\n                        <h4 class=\"card-title card-header-success\">Growing</h4>\n                        <div class=\"card\">\n                            <img class=\"img\"\n                                 src=\"https://firebasestorage.googleapis.com/v0/b/takeme-2019.appspot.com/o/buses.jpeg?alt=media&token=5ac3b678-588a-442f-9110-e2c33b2a0045\"\n                                 height=\"150px\" alt=\"SIGN\"/>\n                        </div>\n                        <div class=\"card\">\n                            <blockquote class=\"blockquote\">\n                                <small>\n                                    Over 10 000 people are moving\n                                    to new areas every month\n                                </small>\n                            </blockquote>\n                            <p>\n                                We are tirelessly working hard on improving our application's understanding of what you\n                                need.\n                                We will be releasing the iOS version shortly.\n                            </p>\n                        </div>\n                    </div>\n                    <div class=\"card-footer\">\n                        <h4 class=\"card-title\">\n                            We Are Committed To Improve Public Transport Experience With You\n                        </h4>\n                    </div>\n                </div>\n            </div>\n        </div>\n        <div class=\"row\">\n            <div class=\"col-md-12\">\n                <div class=\"card\">\n                    <div class=\"card-body bg-success\">\n                        <blockquote class=\"blockquote\" style=\"margin-bottom: 0rem !important;\">\n                            <small style=\"color: white\">\n                                Stay with us while we are working hard to giving you the best of public transportation\n                            </small>\n                        </blockquote>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>"
+module.exports = "<div class=\"main-content\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-md-4\">\n                <div class=\"card card-chart\">\n                    <div class=\"card-body\">\n                        <h4 class=\"card-title card-header-success\">Takeme</h4>\n                        <div class=\"card\">\n                            <img class=\"img\"\n                                 src=\"https://firebasestorage.googleapis.com/v0/b/takeme-2019.appspot.com/o/takeataxi.jpg?alt=media&token=1771708b-f121-42b6-afc1-ecc5bd69cf10\"\n                                 height=\"150px\" alt=\"SIGN\"/>\n                        </div>\n                        <div class=\"card\">\n                            <blockquote class=\"blockquote\">\n                                <small>\n                                    New in the hood? Quickly learn local hand signs for taxis with us\n                                </small>\n                            </blockquote>\n                            <p>\n                                Takeme is your solution, making traveling easier than before. Just give us your location\n                                and desired destination & we'll find you the correct sign.\n                            </p>\n                        </div>\n                    </div>\n                    <div class=\"card-footer\">\n                        <h4 class=\"card-title\">\n                            Download Our Mobile App Now\n                        </h4>\n                        <a routerLink=\"dashboard\"> <img class=\"img\"\n                                                        src=\"https://firebasestorage.googleapis.com/v0/b/takeme-2019.appspot.com/o/google-play-badge.png?alt=media&token=eea9d4e6-2b20-4acf-8e10-fec50a80617e\"\n                                                        width=\"150px\"></a>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-md-4\">\n                <div class=\"card card-chart\">\n                    <div class=\"card-body\">\n                        <h4 class=\"card-title card-header-success\">Convenient</h4>\n                        <div class=\"card\">\n                            <img class=\"img\"\n                                 src=\"https://firebasestorage.googleapis.com/v0/b/takeme-2019.appspot.com/o/million.jpeg?alt=media&token=66eaec58-9a87-418d-b487-eaaad52e24a6\"\n                                 height=\"150px\" alt=\"SIGN\"/>\n                        </div>\n                        <div class=\"card\">\n                            <blockquote class=\"blockquote\">\n                                <small>\n                                    Approximately 14 million people use a taxi everyday, at least twice a day\n                                </small>\n                            </blockquote>\n                            <p>\n                                Takeme provides convenience, safety and saves you time. We help you travel from one\n                                location to the other without worrying about getting lost.\n                            </p>\n                        </div>\n                    </div>\n                    <div class=\"card-footer\">\n                        <h4 class=\"card-title\">\n                            Find the sign you're looking for here!\n                        </h4>\n                        <button class=\"btn btn-success\" routerLink=\"dashboard\"> Visit</button>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-md-4\">\n                <div class=\"card card-chart\">\n                    <div class=\"card-body\">\n                        <h4 class=\"card-title card-header-success\">Growing</h4>\n                        <div class=\"card\">\n                            <img class=\"img\"\n                                 src=\"https://firebasestorage.googleapis.com/v0/b/takeme-2019.appspot.com/o/buses.jpeg?alt=media&token=5ac3b678-588a-442f-9110-e2c33b2a0045\"\n                                 height=\"150px\" alt=\"SIGN\"/>\n                        </div>\n                        <div class=\"card\">\n                            <blockquote class=\"blockquote\">\n                                <small>\n                                    Over 10 000 people are moving\n                                    to new areas every month\n                                </small>\n                            </blockquote>\n                            <p>\n                                We hope to make things easy for you. Our dedicated team is working hard to improve our\n                                application, customising it to suit your needs. We will be releasing the iOS version soon.\n                            </p>\n                        </div>\n                    </div>\n                    <div class=\"card-footer\">\n                        <h4 class=\"card-title\">\n                            We Are Committed To Improve Public Transport Experience With You\n                        </h4>\n                    </div>\n                </div>\n            </div>\n        </div>\n        <div class=\"row\">\n            <div class=\"col-md-12\">\n                <div class=\"card\">\n                    <div class=\"card-body bg-success\">\n                        <blockquote class=\"blockquote\" style=\"margin-bottom: 0rem !important;\">\n                            <small style=\"color: white\">\n                                Give us your input to help us provide deliver according to your needs.\n                            </small>\n                        </blockquote>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>"
 
 /***/ }),
 
@@ -85,6 +85,28 @@ module.exports = "<div class=\"main-content\">\n    <div class=\"container\">\n 
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"main-content\">\n    <div class=\"container\">\n        <div class=\"row takeme-row\">\n            <div class=\"col-md-6\">\n                <div class=\"alert alert-success\" *ngIf=\"downloadUrl\">\n                    <button mat-button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-label=\"Close\">\n                        <i class=\"material-icons\">close</i>\n                    </button>\n                    <span>\n                              From {{ from }} To {{ destination }}\n                    </span>\n                </div>\n                <div class=\"alert alert-danger\" *ngIf=\"!downloadUrl\">\n                    <button mat-button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-label=\"Close\">\n                        <i class=\"material-icons\">close</i>\n                    </button>\n                    <span>\n                              <b> Danger - </b> This is a regular notification made with \".alert-danger\"</span>\n                </div>\n                <div class=\"card card-profile\">\n                    <div class=\"card-avatar\">\n                        <a href=\"javascript:void(0)\">\n                            <img class=\"img\" src=\"{{ downloadUrl }}\" />\n                        </a>\n                    </div>\n                </div>\n                <div class=\"card-profile\">\n                    <button mat-raised-button type=\"submit\" class=\"btn btn-success pull-center\" (click)=\"gotIt()\">\n                        <!--<i class=\"material-icons\">-->\n                            <!--thumb_up-->\n                        <!--</i> -->\n                        Got it\n                    </button>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>"
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/index.js!./src/app/mobiledashboard/mobiledashboard.component.html":
+/*!******************************************************************************************!*\
+  !*** ./node_modules/raw-loader!./src/app/mobiledashboard/mobiledashboard.component.html ***!
+  \******************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"main-content\">\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-md-6\">\n        <div class=\"card  card-plain\">\n          <div class=\"card-header card-header-success\" style=\"height: 108px;\">\n            <h4 class=\"card-title\">{{ searchAddresses.length <= 0 ? listOfSigns.length :\n              searchAddresses.length }} Route(s) Covered</h4>\n            <Search (setAddress)=\"getAddress($event)\" adressType=\"geocode\"></Search>\n          </div>\n        </div>\n      </div>\n    </div>\n\n    <div class=\"row\" *ngIf=\"searchAddresses.length <= 0\">\n      <div class=\"col-md-4\" *ngFor=\"let sign of listOfSigns; let i = index\">\n        <div class=\"card card-chart\">\n          <div class=\"card-body\">\n            <h4 class=\"card-title\">{{ sign.from.name }} => {{ sign.destination.name }}</h4>\n            <div class=\"card card-profile\">\n              <div class=\"card-avatar\">\n                <a href=\"javascript:void(0)\">\n                  <img class=\"img\" src=\"{{ sign.downloadUrl }}\" alt=\"SIGN\"/>\n                </a>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n    <div class=\"row\" *ngIf=\"searchAddresses.length > 0\">\n      <div class=\"col-md-4\" *ngFor=\"let sign of searchAddresses; let i = index\">\n        <div class=\"card card-chart\">\n          <div class=\"card-body\">\n            <h4 class=\"card-title\">{{ sign.from.name }} => {{ sign.destination.name }}</h4>\n            <div class=\"card card-profile\">\n              <div class=\"card-avatar\">\n                <a href=\"javascript:void(0)\">\n                  <img class=\"img\" src=\"{{ sign.downloadUrl }}\" alt=\"SIGN\"/>\n                </a>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>"
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/index.js!./src/app/mobileview/mobileview.component.html":
+/*!********************************************************************************!*\
+  !*** ./node_modules/raw-loader!./src/app/mobileview/mobileview.component.html ***!
+  \********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"main-content\">\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-md-4\">\n        <div class=\"card card-chart\">\n          <div class=\"card-body\">\n            <h4 class=\"card-title card-header-success\">Takeme</h4>\n            <div class=\"card\">\n              <img class=\"img\"\n                   src=\"https://firebasestorage.googleapis.com/v0/b/takeme-2019.appspot.com/o/takeataxi.jpg?alt=media&token=1771708b-f121-42b6-afc1-ecc5bd69cf10\"\n                   height=\"150px\" alt=\"SIGN\"/>\n            </div>\n            <div class=\"card\">\n              <blockquote class=\"blockquote\">\n                <small>\n                  New in the hood? Quickly learn local hand signs for taxis with us\n                </small>\n              </blockquote>\n              <p>\n                Takeme is your solution, making traveling easier than before. Just give us your location\n                and desired destination & we'll find you the correct sign.\n              </p>\n            </div>\n          </div>\n        </div>\n      </div>\n      <div class=\"col-md-4\">\n        <div class=\"card card-chart\">\n          <div class=\"card-body\">\n            <h4 class=\"card-title card-header-success\">Convenient</h4>\n            <div class=\"card\">\n              <img class=\"img\"\n                   src=\"https://firebasestorage.googleapis.com/v0/b/takeme-2019.appspot.com/o/million.jpeg?alt=media&token=66eaec58-9a87-418d-b487-eaaad52e24a6\"\n                   height=\"150px\" alt=\"SIGN\"/>\n            </div>\n            <div class=\"card\">\n              <blockquote class=\"blockquote\">\n                <small>\n                  Approximately 14 million people use a taxi everyday, at least twice a day\n                </small>\n              </blockquote>\n              <p>\n                Takeme provides convenience, safety and saves you time. We help you travel from one\n                location to the other without worrying about getting lost.\n              </p>\n            </div>\n          </div>\n          <div class=\"card-footer\">\n            <h4 class=\"card-title\">\n              Find the sign you're looking for here!\n            </h4>\n            <button class=\"btn btn-success\" routerLink=\"/mobile-dashboard\"> Visit</button>\n          </div>\n        </div>\n      </div>\n      <div class=\"col-md-4\">\n        <div class=\"card card-chart\">\n          <div class=\"card-body\">\n            <h4 class=\"card-title card-header-success\">Growing</h4>\n            <div class=\"card\">\n              <img class=\"img\"\n                   src=\"https://firebasestorage.googleapis.com/v0/b/takeme-2019.appspot.com/o/buses.jpeg?alt=media&token=5ac3b678-588a-442f-9110-e2c33b2a0045\"\n                   height=\"150px\" alt=\"SIGN\"/>\n            </div>\n            <div class=\"card\">\n              <blockquote class=\"blockquote\">\n                <small>\n                  Over 10 000 people are moving\n                  to new areas every month\n                </small>\n              </blockquote>\n              <p>\n                We hope to make things easy for you. Our dedicated team is working hard to improve our\n                application, customising it to suit your needs. We will be releasing the iOS version soon.\n              </p>\n            </div>\n          </div>\n          <div class=\"card-footer\">\n            <h4 class=\"card-title\">\n              We Are Committed To Improve Public Transport Experience With You\n            </h4>\n          </div>\n        </div>\n      </div>\n    </div>\n    <div class=\"row\">\n      <div class=\"col-md-12\">\n        <div class=\"card\">\n          <div class=\"card-body bg-success\">\n            <blockquote class=\"blockquote\" style=\"margin-bottom: 0rem !important;\">\n              <small style=\"color: white\">\n                Give us your input to help us provide deliver according to your needs.\n              </small>\n            </blockquote>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>"
 
 /***/ }),
 
@@ -329,12 +351,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./dashboard/dashboard.component */ "./src/app/dashboard/dashboard.component.ts");
 /* harmony import */ var _search_search_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./search/search.component */ "./src/app/search/search.component.ts");
 /* harmony import */ var _about_about_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./about/about.component */ "./src/app/about/about.component.ts");
+/* harmony import */ var _mobileview_mobileview_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./mobileview/mobileview.component */ "./src/app/mobileview/mobileview.component.ts");
+/* harmony import */ var _mobiledashboard_mobiledashboard_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./mobiledashboard/mobiledashboard.component */ "./src/app/mobiledashboard/mobiledashboard.component.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
+
 
 
 
@@ -373,6 +399,8 @@ var AppModule = /** @class */ (function () {
                 _dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_12__["DashboardComponent"],
                 _search_search_component__WEBPACK_IMPORTED_MODULE_13__["SearchComponent"],
                 _about_about_component__WEBPACK_IMPORTED_MODULE_14__["AboutComponent"],
+                _mobileview_mobileview_component__WEBPACK_IMPORTED_MODULE_15__["MobileviewComponent"],
+                _mobiledashboard_mobiledashboard_component__WEBPACK_IMPORTED_MODULE_16__["MobiledashboardComponent"],
             ],
             providers: [],
             bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_9__["AppComponent"]],
@@ -404,12 +432,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _addsignfordirections_addsignfordirections_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./addsignfordirections/addsignfordirections.component */ "./src/app/addsignfordirections/addsignfordirections.component.ts");
 /* harmony import */ var _dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./dashboard/dashboard.component */ "./src/app/dashboard/dashboard.component.ts");
 /* harmony import */ var _about_about_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./about/about.component */ "./src/app/about/about.component.ts");
+/* harmony import */ var _mobileview_mobileview_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./mobileview/mobileview.component */ "./src/app/mobileview/mobileview.component.ts");
+/* harmony import */ var _mobiledashboard_mobiledashboard_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./mobiledashboard/mobiledashboard.component */ "./src/app/mobiledashboard/mobiledashboard.component.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
+
 
 
 
@@ -449,16 +481,23 @@ var routes = [
                 path: '',
                 loadChildren: './takeme/takeme.module#TakemeModule'
             }]
+    }, {
+        path: 'about',
+        pathMatch: 'full',
+        component: _mobileview_mobileview_component__WEBPACK_IMPORTED_MODULE_8__["MobileviewComponent"],
+        children: [{
+                path: '',
+                loadChildren: './takeme/takeme.module#TakemeModule'
+            }]
+    }, {
+        path: 'mobile-dashboard',
+        pathMatch: 'full',
+        component: _mobiledashboard_mobiledashboard_component__WEBPACK_IMPORTED_MODULE_9__["MobiledashboardComponent"],
+        children: [{
+                path: '',
+                loadChildren: './takeme/takeme.module#TakemeModule'
+            }]
     }
-    // , {
-    //   path: 'about',
-    //   pathMatch: 'full',
-    //   component: AboutComponent,
-    //   children: [{
-    //     path: '',
-    //     loadChildren: './takeme/takeme.module#TakemeModule'
-    //   }]
-    // }
 ];
 var AppRoutingModule = /** @class */ (function () {
     function AppRoutingModule() {
@@ -730,7 +769,7 @@ var NavbarComponent = /** @class */ (function () {
                 return this.listTitles[item].title;
             }
         }
-        return 'Take Me';
+        return 'Takeme';
     };
     NavbarComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
@@ -967,6 +1006,139 @@ var DisplaysignComponent = /** @class */ (function () {
         __metadata("design:paramtypes", [_angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"]])
     ], DisplaysignComponent);
     return DisplaysignComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/mobiledashboard/mobiledashboard.component.scss":
+/*!****************************************************************!*\
+  !*** ./src/app/mobiledashboard/mobiledashboard.component.scss ***!
+  \****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL21vYmlsZWRhc2hib2FyZC9tb2JpbGVkYXNoYm9hcmQuY29tcG9uZW50LnNjc3MifQ== */"
+
+/***/ }),
+
+/***/ "./src/app/mobiledashboard/mobiledashboard.component.ts":
+/*!**************************************************************!*\
+  !*** ./src/app/mobiledashboard/mobiledashboard.component.ts ***!
+  \**************************************************************/
+/*! exports provided: MobiledashboardComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MobiledashboardComponent", function() { return MobiledashboardComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var angularfire2_database__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! angularfire2/database */ "./node_modules/angularfire2/database/index.js");
+/* harmony import */ var angularfire2_database__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(angularfire2_database__WEBPACK_IMPORTED_MODULE_1__);
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var Sign = /** @class */ (function () {
+    function Sign() {
+    }
+    return Sign;
+}());
+var MobiledashboardComponent = /** @class */ (function () {
+    function MobiledashboardComponent(db) {
+        this.db = db;
+        this.listOfSigns = [];
+        this.searchAddresses = [];
+    }
+    MobiledashboardComponent.prototype.ngOnInit = function () {
+        var _this = this;
+        this.db.list('/signs').valueChanges().subscribe(function (sign) {
+            sign.forEach(function (s) {
+                Object.keys(s).map(function (key) { return s[key]; }).map(function (si) {
+                    _this.listOfSigns.push(si);
+                });
+            });
+        });
+    };
+    MobiledashboardComponent.prototype.getAddress = function (place) {
+        this.address = place['formatted_address'];
+        this.formattedAddress = place['formatted_address'];
+        this.getSearchedAddress(place);
+    };
+    MobiledashboardComponent.prototype.getSearchedAddress = function (searchedAddress) {
+        this.searchAddresses = this.listOfSigns.filter(function (search) { return search.destination.name.includes(searchedAddress.toString()) ?
+            search.destination.name.includes(searchedAddress.toString()) :
+            search.from.name.includes(searchedAddress.toString()); });
+    };
+    MobiledashboardComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-mobiledashboard',
+            template: __webpack_require__(/*! raw-loader!./mobiledashboard.component.html */ "./node_modules/raw-loader/index.js!./src/app/mobiledashboard/mobiledashboard.component.html"),
+            styles: [__webpack_require__(/*! ./mobiledashboard.component.scss */ "./src/app/mobiledashboard/mobiledashboard.component.scss")]
+        }),
+        __metadata("design:paramtypes", [angularfire2_database__WEBPACK_IMPORTED_MODULE_1__["AngularFireDatabase"]])
+    ], MobiledashboardComponent);
+    return MobiledashboardComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/mobileview/mobileview.component.scss":
+/*!******************************************************!*\
+  !*** ./src/app/mobileview/mobileview.component.scss ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL21vYmlsZXZpZXcvbW9iaWxldmlldy5jb21wb25lbnQuc2NzcyJ9 */"
+
+/***/ }),
+
+/***/ "./src/app/mobileview/mobileview.component.ts":
+/*!****************************************************!*\
+  !*** ./src/app/mobileview/mobileview.component.ts ***!
+  \****************************************************/
+/*! exports provided: MobileviewComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MobileviewComponent", function() { return MobileviewComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var MobileviewComponent = /** @class */ (function () {
+    function MobileviewComponent() {
+    }
+    MobileviewComponent.prototype.ngOnInit = function () {
+    };
+    MobileviewComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-mobileview',
+            template: __webpack_require__(/*! raw-loader!./mobileview.component.html */ "./node_modules/raw-loader/index.js!./src/app/mobileview/mobileview.component.html"),
+            styles: [__webpack_require__(/*! ./mobileview.component.scss */ "./src/app/mobileview/mobileview.component.scss")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], MobileviewComponent);
+    return MobileviewComponent;
 }());
 
 
