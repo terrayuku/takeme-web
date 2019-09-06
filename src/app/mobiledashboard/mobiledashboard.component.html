@@ -1,0 +1,48 @@
+<div class="main-content">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card  card-plain">
+          <div class="card-header card-header-success" style="height: 108px;">
+            <h4 class="card-title">{{ searchAddresses.length <= 0 ? listOfSigns.length :
+              searchAddresses.length }} Route(s) Covered</h4>
+            <Search (setAddress)="getAddress($event)" adressType="geocode"></Search>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" *ngIf="searchAddresses.length <= 0">
+      <div class="col-md-4" *ngFor="let sign of listOfSigns; let i = index">
+        <div class="card card-chart">
+          <div class="card-body">
+            <h4 class="card-title">{{ sign.from.name }} => {{ sign.destination.name }}</h4>
+            <div class="card card-profile">
+              <div class="card-avatar">
+                <a href="javascript:void(0)">
+                  <img class="img" src="{{ sign.downloadUrl }}" alt="SIGN"/>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row" *ngIf="searchAddresses.length > 0">
+      <div class="col-md-4" *ngFor="let sign of searchAddresses; let i = index">
+        <div class="card card-chart">
+          <div class="card-body">
+            <h4 class="card-title">{{ sign.from.name }} => {{ sign.destination.name }}</h4>
+            <div class="card card-profile">
+              <div class="card-avatar">
+                <a href="javascript:void(0)">
+                  <img class="img" src="{{ sign.downloadUrl }}" alt="SIGN"/>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

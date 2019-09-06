@@ -119,6 +119,6 @@ export class NavbarComponent implements OnInit {
               return this.listTitles[item].title;
           }
       }
-      return 'Take Me';
+      return 'Takeme';
     }
 }
