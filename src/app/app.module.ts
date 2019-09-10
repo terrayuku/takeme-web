@@ -16,6 +16,8 @@ import {CUSTOM_ELEMENTS_SCHEMA} from "@angular/core";
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { SearchComponent } from './search/search.component';
 import { AboutComponent } from './about/about.component';
+import { MobileviewComponent } from './mobileview/mobileview.component';
+import { MobiledashboardComponent } from './mobiledashboard/mobiledashboard.component';
 
 @NgModule({
   imports: [
@@ -35,6 +37,8 @@ import { AboutComponent } from './about/about.component';
     DashboardComponent,
     SearchComponent,
     AboutComponent,
+    MobileviewComponent,
+    MobiledashboardComponent,
 
   ],
   providers: [],
