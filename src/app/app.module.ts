@@ -18,6 +18,8 @@ import { SearchComponent } from './search/search.component';
 import { AboutComponent } from './about/about.component';
 import { MobileviewComponent } from './mobileview/mobileview.component';
 import { MobiledashboardComponent } from './mobiledashboard/mobiledashboard.component';
+import { TermsandconditionsComponent } from './termsandconditions/termsandconditions.component';
+import { PrivacypolicyComponent } from './privacypolicy/privacypolicy.component';
 
 @NgModule({
   imports: [
@@ -39,6 +41,8 @@ import { MobiledashboardComponent } from './mobiledashboard/mobiledashboard.comp
     AboutComponent,
     MobileviewComponent,
     MobiledashboardComponent,
+    TermsandconditionsComponent,
+    PrivacypolicyComponent,
 
   ],
   providers: [],
