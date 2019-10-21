@@ -40,7 +40,7 @@ module.exports = "<div class=\"main-panel\">\n    <app-navbar></app-navbar>\n   
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<footer class=\"footer \">\n    <div class=\"container-fluid\">\n        <nav class=\"pull-left\">\n            <ul>\n                <li>\n                    <a href=\"https://www.reimagine.com\">\n                        ReImagine\n                    </a>\n                </li>\n                <li>\n                    <a href=\"https://reimagine.com/about-us\">\n                        About Us\n                    </a>\n                </li>\n                <li>\n                    <a href=\"https://www.reimagine.com/license\">\n                        Licenses\n                    </a>\n                </li>\n            </ul>\n        </nav>\n        <div class=\"copyright pull-right\">\n            &copy;\n            {{test | date: 'yyyy'}}, by\n            <a href=\"https://www.reimagine.com\" target=\"_blank\">ReImagine</a>\n        </div>\n    </div>\n</footer>\n"
+module.exports = "<footer class=\"footer \">\n    <div class=\"container-fluid\">\n        <nav class=\"pull-left\">\n            <ul>\n                <li>\n                    <a href=\"https://www.iyukuinc.com\">\n                        iYuku Inc\n                    </a>\n                </li>\n                <li>\n                    <a href=\"https://iyukuinc.com/about-us\">\n                        About iYuku Inc\n                    </a>\n                </li>\n                <li>\n                    <a href=\"https://www.takemeto.co.za/#/privacy/policy\">\n                        Privacy Policy\n                    </a>\n                </li>\n                <li>\n                    <a href=\"https://www.takemeto.co.za/#/termsandconditions\">\n                        Terms and Conditions\n                    </a>\n                </li>\n            </ul>\n        </nav>\n        <div class=\"copyright pull-right\">\n            &copy;\n            {{test | date: 'yyyy'}}, by\n            <a href=\"https://www.iyukuinc.com\" target=\"_blank\">iYuku Inc</a>\n        </div>\n    </div>\n</footer>\n"
 
 /***/ }),
 
@@ -110,6 +110,17 @@ module.exports = "<div class=\"main-content\">\n  <div class=\"container\">\n   
 
 /***/ }),
 
+/***/ "./node_modules/raw-loader/index.js!./src/app/privacypolicy/privacypolicy.component.html":
+/*!**************************************************************************************!*\
+  !*** ./node_modules/raw-loader!./src/app/privacypolicy/privacypolicy.component.html ***!
+  \**************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"main-content\">\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-md-12\">\n        <div class=\"card  card-plain\">\n          <div class=\"card-header card-header-success\" style=\"height: 108px;\">\n            Privacy Policy\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>"
+
+/***/ }),
+
 /***/ "./node_modules/raw-loader/index.js!./src/app/search/search.component.html":
 /*!************************************************************************!*\
   !*** ./node_modules/raw-loader!./src/app/search/search.component.html ***!
@@ -140,6 +151,17 @@ module.exports = "<div class=\"alert alert-danger\" *ngIf=\"message\">\n    <but
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"main-content\">\n    <div class=\"container\">\n        <div class=\"row takeme-row\">\n            <div class=\"col-md-6\">\n                <div class=\"card-plain\">\n                    <div class=\"card-body\">\n                        <SearchAddress (setAddress)=\"getAddress($event)\" adressType=\"geocode\"></SearchAddress>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>\n"
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/index.js!./src/app/termsandconditions/termsandconditions.component.html":
+/*!************************************************************************************************!*\
+  !*** ./node_modules/raw-loader!./src/app/termsandconditions/termsandconditions.component.html ***!
+  \************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"main-content\">\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-md-12\">\n        <div class=\"card  card-plain\">\n          <div class=\"card-header card-header-success\" style=\"height: 108px;\">\n            Terms And Conditions\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>"
 
 /***/ }),
 
@@ -353,12 +375,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _about_about_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./about/about.component */ "./src/app/about/about.component.ts");
 /* harmony import */ var _mobileview_mobileview_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./mobileview/mobileview.component */ "./src/app/mobileview/mobileview.component.ts");
 /* harmony import */ var _mobiledashboard_mobiledashboard_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./mobiledashboard/mobiledashboard.component */ "./src/app/mobiledashboard/mobiledashboard.component.ts");
+/* harmony import */ var _termsandconditions_termsandconditions_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./termsandconditions/termsandconditions.component */ "./src/app/termsandconditions/termsandconditions.component.ts");
+/* harmony import */ var _privacypolicy_privacypolicy_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./privacypolicy/privacypolicy.component */ "./src/app/privacypolicy/privacypolicy.component.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
+
 
 
 
@@ -401,6 +427,8 @@ var AppModule = /** @class */ (function () {
                 _about_about_component__WEBPACK_IMPORTED_MODULE_14__["AboutComponent"],
                 _mobileview_mobileview_component__WEBPACK_IMPORTED_MODULE_15__["MobileviewComponent"],
                 _mobiledashboard_mobiledashboard_component__WEBPACK_IMPORTED_MODULE_16__["MobiledashboardComponent"],
+                _termsandconditions_termsandconditions_component__WEBPACK_IMPORTED_MODULE_17__["TermsandconditionsComponent"],
+                _privacypolicy_privacypolicy_component__WEBPACK_IMPORTED_MODULE_18__["PrivacypolicyComponent"],
             ],
             providers: [],
             bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_9__["AppComponent"]],
@@ -434,12 +462,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _about_about_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./about/about.component */ "./src/app/about/about.component.ts");
 /* harmony import */ var _mobileview_mobileview_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./mobileview/mobileview.component */ "./src/app/mobileview/mobileview.component.ts");
 /* harmony import */ var _mobiledashboard_mobiledashboard_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./mobiledashboard/mobiledashboard.component */ "./src/app/mobiledashboard/mobiledashboard.component.ts");
+/* harmony import */ var _privacypolicy_privacypolicy_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./privacypolicy/privacypolicy.component */ "./src/app/privacypolicy/privacypolicy.component.ts");
+/* harmony import */ var _termsandconditions_termsandconditions_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./termsandconditions/termsandconditions.component */ "./src/app/termsandconditions/termsandconditions.component.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
+
 
 
 
@@ -493,6 +525,22 @@ var routes = [
         path: 'mobile-dashboard',
         pathMatch: 'full',
         component: _mobiledashboard_mobiledashboard_component__WEBPACK_IMPORTED_MODULE_9__["MobiledashboardComponent"],
+        children: [{
+                path: '',
+                loadChildren: './takeme/takeme.module#TakemeModule'
+            }]
+    }, {
+        path: 'privacy/policy',
+        pathMatch: 'full',
+        component: _privacypolicy_privacypolicy_component__WEBPACK_IMPORTED_MODULE_10__["PrivacypolicyComponent"],
+        children: [{
+                path: '',
+                loadChildren: './takeme/takeme.module#TakemeModule'
+            }]
+    }, {
+        path: 'termsandconditions',
+        pathMatch: 'full',
+        component: _termsandconditions_termsandconditions_component__WEBPACK_IMPORTED_MODULE_11__["TermsandconditionsComponent"],
         children: [{
                 path: '',
                 loadChildren: './takeme/takeme.module#TakemeModule'
@@ -1145,6 +1193,58 @@ var MobileviewComponent = /** @class */ (function () {
 
 /***/ }),
 
+/***/ "./src/app/privacypolicy/privacypolicy.component.scss":
+/*!************************************************************!*\
+  !*** ./src/app/privacypolicy/privacypolicy.component.scss ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3ByaXZhY3lwb2xpY3kvcHJpdmFjeXBvbGljeS5jb21wb25lbnQuc2NzcyJ9 */"
+
+/***/ }),
+
+/***/ "./src/app/privacypolicy/privacypolicy.component.ts":
+/*!**********************************************************!*\
+  !*** ./src/app/privacypolicy/privacypolicy.component.ts ***!
+  \**********************************************************/
+/*! exports provided: PrivacypolicyComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PrivacypolicyComponent", function() { return PrivacypolicyComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var PrivacypolicyComponent = /** @class */ (function () {
+    function PrivacypolicyComponent() {
+    }
+    PrivacypolicyComponent.prototype.ngOnInit = function () {
+    };
+    PrivacypolicyComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-privacypolicy',
+            template: __webpack_require__(/*! raw-loader!./privacypolicy.component.html */ "./node_modules/raw-loader/index.js!./src/app/privacypolicy/privacypolicy.component.html"),
+            styles: [__webpack_require__(/*! ./privacypolicy.component.scss */ "./src/app/privacypolicy/privacypolicy.component.scss")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], PrivacypolicyComponent);
+    return PrivacypolicyComponent;
+}());
+
+
+
+/***/ }),
+
 /***/ "./src/app/search/search.component.scss":
 /*!**********************************************!*\
   !*** ./src/app/search/search.component.scss ***!
@@ -1545,6 +1645,58 @@ var TakemeModule = /** @class */ (function () {
         })
     ], TakemeModule);
     return TakemeModule;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/termsandconditions/termsandconditions.component.scss":
+/*!**********************************************************************!*\
+  !*** ./src/app/termsandconditions/termsandconditions.component.scss ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3Rlcm1zYW5kY29uZGl0aW9ucy90ZXJtc2FuZGNvbmRpdGlvbnMuY29tcG9uZW50LnNjc3MifQ== */"
+
+/***/ }),
+
+/***/ "./src/app/termsandconditions/termsandconditions.component.ts":
+/*!********************************************************************!*\
+  !*** ./src/app/termsandconditions/termsandconditions.component.ts ***!
+  \********************************************************************/
+/*! exports provided: TermsandconditionsComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TermsandconditionsComponent", function() { return TermsandconditionsComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var TermsandconditionsComponent = /** @class */ (function () {
+    function TermsandconditionsComponent() {
+    }
+    TermsandconditionsComponent.prototype.ngOnInit = function () {
+    };
+    TermsandconditionsComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-termsandconditions',
+            template: __webpack_require__(/*! raw-loader!./termsandconditions.component.html */ "./node_modules/raw-loader/index.js!./src/app/termsandconditions/termsandconditions.component.html"),
+            styles: [__webpack_require__(/*! ./termsandconditions.component.scss */ "./src/app/termsandconditions/termsandconditions.component.scss")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], TermsandconditionsComponent);
+    return TermsandconditionsComponent;
 }());
 
 
