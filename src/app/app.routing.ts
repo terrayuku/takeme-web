@@ -10,6 +10,8 @@ import {DashboardComponent} from "./dashboard/dashboard.component";
 import {AboutComponent} from "./about/about.component";
 import {MobileviewComponent} from "./mobileview/mobileview.component";
 import {MobiledashboardComponent} from "./mobiledashboard/mobiledashboard.component";
+import {PrivacypolicyComponent} from "./privacypolicy/privacypolicy.component";
+import {TermsandconditionsComponent} from "./termsandconditions/termsandconditions.component";
 
 const routes: Routes =[
   {
@@ -54,6 +56,22 @@ const routes: Routes =[
     path: 'mobile-dashboard',
     pathMatch: 'full',
     component: MobiledashboardComponent,
+    children: [{
+      path: '',
+      loadChildren: './takeme/takeme.module#TakemeModule'
+    }]
+  }, {
+    path: 'privacy/policy',
+    pathMatch: 'full',
+    component: PrivacypolicyComponent,
+    children: [{
+      path: '',
+      loadChildren: './takeme/takeme.module#TakemeModule'
+    }]
+  }, {
+    path: 'termsandconditions',
+    pathMatch: 'full',
+    component: TermsandconditionsComponent,
     children: [{
       path: '',
       loadChildren: './takeme/takeme.module#TakemeModule'
