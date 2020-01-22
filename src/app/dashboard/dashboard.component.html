@@ -16,7 +16,7 @@
                         <h4 class="card-title" style="margin: 0">
                             Download Our Mobile App Now
                         </h4>
-                        <a routerLink="dashboard"> <img class="img"
+                        <a href="https://play.google.com/store/apps/details?id=com.takeme.takemeto"> <img class="img"
                                                         src="https://firebasestorage.googleapis.com/v0/b/takeme-2019.appspot.com/o/google-play-badge.png?alt=media&token=eea9d4e6-2b20-4acf-8e10-fec50a80617e"
                                                         width="150px"></a>
                     </div>
@@ -28,7 +28,7 @@
             <div class="col-md-4" *ngFor="let sign of listOfSigns; let i = index">
                 <div class="card card-chart">
                     <div class="card-body">
-                        <h4 class="card-title">{{ sign.from.name }} => {{ sign.destination.name }}</h4>
+                        <h4 class="card-title">{{sign.price ? "R "  + sign.price + " - " : "" }}  {{ sign.from.name }}  to  {{ sign.destination.name }}</h4>
                         <div class="card card-profile">
                             <div class="card-avatar">
                                 <a href="javascript:void(0)">
@@ -47,6 +47,7 @@
                 </div>
             </div>
         </div>
+
         <div class="row" *ngIf="searchAddresses.length > 0">
             <div class="col-md-4" *ngFor="let sign of searchAddresses; let i = index">
                 <div class="card card-chart">
